@@ -6,15 +6,16 @@ library(lubridate)
 zoop_raw <- read_csv('data-raw/metadata/F4F2019_Complete2019ZoopsPerM3andWaterQuality.csv')
 metadata <- read_excel('data-raw/metadata/F4F2019_metadata.xlsx', sheet = "attribute")
 
-# Check why colnames not aligning (where is the x1 coming from ?)
+summary(zoop_raw)
+# Check why colnames not aligning (where is the x1 coming from ?, missing Embryo)
+# TODO ask Jacob about Embryo and removal of x1 column
 sort(colnames(zoop_raw)) == sort(metadata$attribute_name)
 
 zoop_data <- zoop_raw %>%
   mutate(DATE = as.Date(DATE, format = '%d/%m/%Y')) %>%
-  select(-X1)
+  select(-X1) %>% glimpse()
 
-# Still not working...look more into this
-sort(colnames(zoop_data)) == sort(metadata$attribute_name)
+unique(zoop_data$LOCATION)
 
 # Continuous Temp --------------------------------------------------------------
 temp_raw <- read_csv('data-raw/metadata/F4F2019_ContinuousTempDO.csv')
@@ -47,4 +48,4 @@ sum(is.na(fish_data$Weight.g))
 # save cleaned data to `data/`
 write_csv(temp_data, 'data/temp_data.csv')
 write_csv(fish_data, 'data/fish_data.csv')
-write_csv('data/')
+write_csv(zoop_data, 'data/zoop_data.csv')

@@ -2,15 +2,19 @@ library(EMLaide)
 library(tidyverse)
 
 # Load in all the documents
-datatable_metadata <- tibble(filepath = c("data/fish_data.csv",
-                                          "data/temp_data.csv",
-                                          "data/zoop_data.csv"),
+datatable_metadata <- tibble(filepath = c("data/F4F2019_FishGrowth.csv",
+                                          "data/F4F2019_ContinuousTempDO.csv",
+                                          "data/F4F2019_Complete2019ZoopsPerM3andWaterQuality.csv",
+                                          "data/F4F2019_LocationLookupTable.csv"),
                              attribute_info = c("data-raw/metadata/F4F2019_FishGrowth_AttributesTable.xlsx",
                                                 "data-raw/metadata/F4F2019_ContinuousTempDO_AttributesTable.xlsx",
-                                                "data-raw/metadata/F4F2019_metadata.xlsx"),
+                                                "data-raw/metadata/F4F2019_metadata.xlsx",
+                                                "data-raw/metadata/Location_attributes.xlsx"),
                              datatable_description = c("Fish Growth Data",
                                                        "Continuous Temperature Data",
-                                                       "Zooplankton Density and Water Quality Data"))
+                                                       "Zooplankton Density and Water Quality Data",
+                                                       "Location Lookup Table for Sample Site"))
+
 
 # TODO Check warnings when reading in excel sheets
 excel_path <- "data-raw/metadata/F4F2019_metadata.xlsx"

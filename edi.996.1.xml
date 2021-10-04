@@ -17,7 +17,7 @@
       <organizationName>California Trout</organizationName>
       <electronicMailAddress>jacob@caltrout.org</electronicMailAddress>
     </creator>
-    <pubDate>2021-09-30</pubDate>
+    <pubDate>2021-10-04</pubDate>
     <abstract>
       <para>
     In the winter and spring of 2018-2019, 5,000 acres of agricultural
@@ -1474,7 +1474,7 @@
     </para>
             <para>
       See Fig.1:
-      <ulink>https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/fig_1_fish_food_edi.png</ulink>
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/fig_1_fish_food_edi.png
     </para>
           </section>
           <section>
@@ -1522,7 +1522,7 @@
     </para>
             <para>
       See Table 1:
-      <ulink>https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/table_1_fish_food_edi.png</ulink>
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/table_1_fish_food_edi.png
     </para>
           </section>
           <section>
@@ -1549,8 +1549,8 @@
       five meters and retrieved through the water column four times.
       Shallow-water nets cannot be fitted with a flowmeter and the
       volume of water sampled can be determined by the area of the mouth
-      of the net multiplied by the distance towed (π*.075^2*20 ~
-      0.35m^3). All zooplankton samples were preserved in 95% ethanol.
+      of the net multiplied by the distance towed (π*.075<superscript>2</superscript>*20 ~
+      0.35m<superscript>3</superscript>). All zooplankton samples were preserved in 95% ethanol.
       Zooplankton were identified to the lowest taxonomic level possible
       and counted using a dissecting microscope at 8x magnification. Dry
       carbon biomass conversions either taken from the literature
@@ -1615,10 +1615,10 @@
       </award>
     </project>
     <dataTable>
-      <entityName>fish_data.csv</entityName>
+      <entityName>F4F2019_FishGrowth.csv</entityName>
       <entityDescription>Fish Growth Data</entityDescription>
       <physical>
-        <objectName>fish_data.csv</objectName>
+        <objectName>F4F2019_FishGrowth.csv</objectName>
         <size unit="bytes">37149</size>
         <authentication method="MD5">a981f8bd4d3525eab920acd5a021cb24</authentication>
         <dataFormat>
@@ -1725,10 +1725,10 @@
       <numberOfRecords>1184</numberOfRecords>
     </dataTable>
     <dataTable>
-      <entityName>temp_data.csv</entityName>
+      <entityName>F4F2019_ContinuousTempDO.csv</entityName>
       <entityDescription>Continuous Temperature Data</entityDescription>
       <physical>
-        <objectName>temp_data.csv</objectName>
+        <objectName>F4F2019_ContinuousTempDO.csv</objectName>
         <size unit="bytes">1089264</size>
         <authentication method="MD5">7d354c9ae0c201d854cce583a96b1ac9</authentication>
         <dataFormat>
@@ -1821,10 +1821,10 @@
       <numberOfRecords>26781</numberOfRecords>
     </dataTable>
     <dataTable>
-      <entityName>zoop_data.csv</entityName>
+      <entityName>F4F2019_Complete2019ZoopsPerM3andWaterQuality.csv</entityName>
       <entityDescription>Zooplankton Density and Water Quality Data</entityDescription>
       <physical>
-        <objectName>zoop_data.csv</objectName>
+        <objectName>F4F2019_Complete2019ZoopsPerM3andWaterQuality.csv</objectName>
         <size unit="bytes">242966</size>
         <authentication method="MD5">31ec354b781dd5043aa11a48d67478e3</authentication>
         <dataFormat>
@@ -3176,6 +3176,75 @@
         </attribute>
       </attributeList>
       <numberOfRecords>638</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>F4F2019_LocationLookupTable.csv</entityName>
+      <entityDescription>Location Lookup Table for Sample Site</entityDescription>
+      <physical>
+        <objectName>F4F2019_LocationLookupTable.csv</objectName>
+        <size unit="bytes">1385</size>
+        <authentication method="MD5">c0c5e5dcb384ba33856366e392cc7b81</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Location</attributeName>
+          <attributeDefinition>sample site code identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample site code identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Lat (UTM)</attributeName>
+          <attributeDefinition>Latitude at sample site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Latitude at sample site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Lon (UTM)</attributeName>
+          <attributeDefinition>Longitude at sample site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Longitude at sample site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>41</numberOfRecords>
     </dataTable>
   </dataset>
   <additionalMetadata>

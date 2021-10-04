@@ -45,7 +45,13 @@ sum(is.na(fish_data$Length.mm))
 sum(fish_raw$Weight.g == "NA")
 sum(is.na(fish_data$Weight.g))
 
+# Location lookup table
+locations <- read_excel("data-raw/metadata/F4F2019_LocationLookupTable.xlsx")
+
+
 # save cleaned data to `data/`
-write_csv(temp_data, 'data/temp_data.csv')
-write_csv(fish_data, 'data/fish_data.csv')
-write_csv(zoop_data, 'data/zoop_data.csv')
+write_csv(temp_data, 'data/F4F2019_ContinuousTempDO.csv')
+write_csv(fish_data, 'data/F4F2019_FishGrowth.csv')
+write_csv(zoop_data, 'data/F4F2019_Complete2019ZoopsPerM3andWaterQuality.csv')
+write_csv(locations, "data//F4F2019_LocationLookupTable.csv")
+

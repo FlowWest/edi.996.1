@@ -2,34 +2,38 @@ library(EMLaide)
 library(tidyverse)
 
 # Load in all the documents
-datatable_metadata <- tibble(filepath = c("data/F4F2019_FishGrowth.csv",
-                                          "data/F4F2019_ContinuousTempDO.csv",
-                                          "data/F4F2019_Complete2019ZoopsPerM3andWaterQuality.csv",
-                                          "data/F4F2019_LocationLookupTable.csv"),
+datatable_metadata <- tibble(filepath = c("data/F4F2019&2021_FishGrowth.csv",
+                                          "data/F4F2019&2021_ContinuousTempDO.csv",
+                                          "data/F4F_Complete2019&2021ZoopsPerM3andWaterQuality.csv",
+                                          "data/F4F2019&2021_LocationLookupTable.csv"
+                                          ),
                              attribute_info = c("data-raw/metadata/F4F2019_FishGrowth_AttributesTable.xlsx",
                                                 "data-raw/metadata/F4F2019_ContinuousTempDO_AttributesTable.xlsx",
-                                                "data-raw/metadata/F4F2019_metadata.xlsx",
-                                                "data-raw/metadata/Location_attributes.xlsx"),
+                                                "data-raw/metadata/F4F2021_metadata.xlsx",
+                                                "data-raw/metadata/Location_attributes.xlsx"
+                                                ),
                              datatable_description = c("Fish Growth Data",
                                                        "Continuous Temperature Data",
                                                        "Zooplankton Density and Water Quality Data",
-                                                       "Location Lookup Table for Sample Site"))
+                                                       "Location Lookup Table for Sample Site"
+                                                       ))
 
 
 # TODO Check warnings when reading in excel sheets
-excel_path <- "data-raw/metadata/F4F2019_metadata.xlsx"
+excel_path <- "data-raw/metadata/F4F2021_metadata.xlsx"
 sheets <- readxl::excel_sheets(excel_path)
 metadata <- lapply(sheets, function(x) readxl::read_excel(excel_path, sheet = x))
 names(metadata) <- sheets
 
-abstract_docx <- "data-raw/metadata/F4F2019_abstract.docx"
-methods_docx <- "data-raw/metadata/F4F2019_methods.docx"
+abstract_docx <- "data-raw/metadata/F4F2019_abstract_updatedthrough2021.docx"
+methods_docx <- "data-raw/metadata/F4F2019_methods_updatedthrough2021.docx"
 
-# edi_number <- reserve_edi_id(user_id = Sys.getenv("EDI_user"), password = Sys.getenv("EDI_password"))
+# edi_number <- reserve_edi_id(user_id = Sys.getenv("user_id"), password = Sys.getenv("password"),
+#                              environment = "staging")
 
 
-edi_number = "edi.996.1"
-
+# edi_number = "edi.996.2"
+edi_number = "edi.946.1"
 dataset <- list() %>%
   add_pub_date() %>%
   add_title(metadata$title) %>%
@@ -66,5 +70,5 @@ eml <- list(packageId = edi_number,
             additionalMetadata = list(metadata = list(
               unitList = unitList)))
 
-EML::write_eml(eml, "edi.996.1.xml")
-EML::eml_validate("edi.996.1.xml")
+EML::write_eml(eml, "edi.946.1.xml")
+EML::eml_validate("edi.946.1.xml")

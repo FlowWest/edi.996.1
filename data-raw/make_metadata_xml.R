@@ -2,10 +2,10 @@ library(EMLaide)
 library(tidyverse)
 
 # Load in all the documents
-datatable_metadata <- tibble(filepath = c("data/F4F2019&2021_FishGrowth.csv",
-                                          "data/F4F2019&2021_ContinuousTempDO.csv",
-                                          "data/F4F_Complete2019&2021ZoopsPerM3andWaterQuality.csv",
-                                          "data/F4F2019&2021_LocationLookupTable.csv"
+datatable_metadata <- tibble(filepath = c("data/F4F2019_2021_FishGrowth.csv",
+                                          "data/F4F2019_2021_ContinuousTempDO.csv",
+                                          "data/F4F_Complete2019_2021ZoopsPerM3andWaterQuality.csv",
+                                          "data/F4F2019_2021_LocationLookupTable.csv"
                                           ),
                              attribute_info = c("data-raw/metadata/F4F2019_FishGrowth_AttributesTable.xlsx",
                                                 "data-raw/metadata/F4F2019_ContinuousTempDO_AttributesTable.xlsx",
@@ -18,10 +18,10 @@ datatable_metadata <- tibble(filepath = c("data/F4F2019&2021_FishGrowth.csv",
                                                        "Location Lookup Table for Sample Site"
                                                        ),
                              datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/edi.996.1/v2.0/",
-                                                 c("data/F4F2019&2021_FishGrowth.csv",
-                                                   "data/F4F2019&2021_ContinuousTempDO.csv",
-                                                   "data/F4F_Complete2019&2021ZoopsPerM3andWaterQuality.csv",
-                                                   "data/F4F2019&2021_LocationLookupTable.csv"
+                                                 c("data/F4F2019_2021_FishGrowth.csv",
+                                                   "data/F4F2019_2021_ContinuousTempDO.csv",
+                                                   "data/F4F_Complete2019_2021ZoopsPerM3andWaterQuality.csv",
+                                                   "data/F4F2019_2021_LocationLookupTable.csv"
                                                  )))
 
 
@@ -79,6 +79,6 @@ eml <- list(packageId = edi_number,
 EML::write_eml(eml, "edi.996.2.xml")
 EML::eml_validate("edi.996.2.xml")
 
-evaluate_edi_package(eml_file_path = "edi.996.2.xml", Sys.getenv("user_id"), Sys.getenv("password"), environment = "production")
+evaluate_edi_package(eml_file_path = "edi.996.2.xml", Sys.getenv("edi_user_id"), Sys.getenv("edi_password"), environment = "staging")
 
 upload_edi_package(eml_file_path = "edi.946.1.xml", Sys.getenv("user_id"), Sys.getenv("password"), environment = "staging")

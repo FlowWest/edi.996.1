@@ -96,8 +96,8 @@ locations <- read_excel("data-raw/metadata/F4F2021_LocationLookupTable.xlsx") %>
   separate(`Lat, lon (UTM)`, into = c("Lat (UTM)", "Lon (UTM)"), ",") %>% glimpse
 
 # save cleaned data to `data/`
-write_csv(temp_data, 'data/F4F2019&2021_ContinuousTempDO.csv')
-write_csv(fish_data, 'data/F4F2019&2021_FishGrowth.csv')
-write_csv(zoop_data, 'data/F4F_Complete2019&2021ZoopsPerM3andWaterQuality.csv')
-write_csv(locations, "data//F4F2019&2021_LocationLookupTable.csv")
+write_csv(temp_data, 'data/F4F2019_2021_ContinuousTempDO.csv')
+write_csv(fish_data, 'data/F4F2019_2021_FishGrowth.csv')
+write_csv(zoop_data, 'data/F4F_Complete2019_2021ZoopsPerM3andWaterQuality.csv')
+write_csv(locations, "data//F4F2019_2021_LocationLookupTable.csv")
 

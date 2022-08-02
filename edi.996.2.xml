@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.996.1" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.996.2" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
   <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
     <allow>
       <principal>public</principal>
       <permission>read</permission>
     </allow>
+    <allow>
+      <principal>cvpia</principal>
+      <permission>write</permission>
+    </allow>
   </access>
   <dataset>
-    <shortName>F4F 2021 2021</shortName>
-    <title>Fish Food on Floodplain Farm Fields 2019 &amp; 2021</title>
+    <shortName>F4F 2019 2021</shortName>
+    <title>Fish Food on Floodplain Farm Fields 2019 and 2021</title>
     <creator id="0000-0002-1506-5611">
       <individualName>
         <givenName>Jacob</givenName>
@@ -17,7 +21,7 @@
       <organizationName>California Trout</organizationName>
       <electronicMailAddress>jacob@caltrout.org</electronicMailAddress>
     </creator>
-    <pubDate>2022-07-28</pubDate>
+    <pubDate>2022-08-02</pubDate>
     <abstract>
       <para>
     2019 Water Year (October 1, 2018 through September 30, 2019)
@@ -157,9 +161,9 @@
         <geographicDescription>Sacramento Valley, CA</geographicDescription>
         <boundingCoordinates>
           <westBoundingCoordinate>-121.7967</westBoundingCoordinate>
-          <eastBoundingCoordinate>-121.7895</eastBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7236</eastBoundingCoordinate>
           <northBoundingCoordinate>38.8673</northBoundingCoordinate>
-          <southBoundingCoordinate>38.8614</southBoundingCoordinate>
+          <southBoundingCoordinate>38.8517</southBoundingCoordinate>
         </boundingCoordinates>
       </geographicCoverage>
       <temporalCoverage>
@@ -1534,9 +1538,9 @@
       <methodStep>
         <description>
           <section>
-            <title>METHODS - Water Year 2019 </title>
+            <title>METHODS - Water Year 2019 (October 1, 2018 through September
+    30, 2019)</title>
             <para>
-      (October 1, 2018 through September 30, 2019)
     </para>
           </section>
           <section>
@@ -1552,7 +1556,7 @@
     </para>
             <para>
       See Figure 1:
-      s3://cvpia-data-stewardship/figures-for-edi/figure_1_2019_food_for_fish.png
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/figure_1_2019_food_for_fish.png
     </para>
           </section>
           <section>
@@ -1600,7 +1604,7 @@
     </para>
             <para>
       See Table 1:
-      s3://cvpia-data-stewardship/figures-for-edi/table_1_2019_food_for_fish.png
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/table_1_2019_food_for_fish.png
     </para>
           </section>
           <section>
@@ -1673,9 +1677,9 @@
     </para>
           </section>
           <section>
-            <title>METHODS - Water Year 2021 </title>
+            <title>METHODS - Water Year 2021 (October 1, 2020 through September
+    30, 2021)</title>
             <para>
-      (October 1, 2020 through September 30, 2021)
     </para>
           </section>
           <section>
@@ -1691,11 +1695,11 @@
     </para>
             <para>
       See figure 1:
-      s3://cvpia-data-stewardship/figures-for-edi/figure_1_2021_food_for_fish.png
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/figure_1_2021_food_for_fish.png
     </para>
             <para>
       See figure 2:
-      s3://cvpia-data-stewardship/figures-for-edi/figure_2_2021_food_for_fish.png
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/figure_2_2021_food_for_fish.png
     </para>
           </section>
           <section>
@@ -1749,7 +1753,7 @@
     </para>
             <para>
       See table 1:
-      s3://cvpia-data-stewardship/figures-for-edi/table_1_2021_food_for_fish.png
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/table_1_2021_food_for_fish.png
     </para>
           </section>
           <section>
@@ -1790,7 +1794,7 @@
       </methodStep>
     </methods>
     <project>
-      <title>Fish Food on Floodplain Farm Fields 2019 &amp; 2021</title>
+      <title>Fish Food on Floodplain Farm Fields 2019 and 2021</title>
       <personnel>
         <individualName>
           <givenName>Jacob</givenName>
@@ -1814,10 +1818,10 @@
       </award>
     </project>
     <dataTable>
-      <entityName>F4F2019&amp;2021_FishGrowth.csv</entityName>
+      <entityName>F4F2019_2021_FishGrowth.csv</entityName>
       <entityDescription>Fish Growth Data</entityDescription>
       <physical>
-        <objectName>F4F2019&amp;2021_FishGrowth.csv</objectName>
+        <objectName>F4F2019_2021_FishGrowth.csv</objectName>
         <size unit="bytes">79646</size>
         <authentication method="MD5">f92b6bd37d660c53c912c61048ec99e7</authentication>
         <dataFormat>
@@ -1832,7 +1836,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v2.0/data/F4F2019_2021_FishGrowth.csv</url>
           </online>
         </distribution>
       </physical>
@@ -1919,10 +1923,10 @@
       <numberOfRecords>2472</numberOfRecords>
     </dataTable>
     <dataTable>
-      <entityName>F4F2019&amp;2021_ContinuousTempDO.csv</entityName>
+      <entityName>F4F2019_2021_ContinuousTempDO.csv</entityName>
       <entityDescription>Continuous Temperature Data</entityDescription>
       <physical>
-        <objectName>F4F2019&amp;2021_ContinuousTempDO.csv</objectName>
+        <objectName>F4F2019_2021_ContinuousTempDO.csv</objectName>
         <size unit="bytes">3275542</size>
         <authentication method="MD5">45b75d5509f215376da2ebc507723683</authentication>
         <dataFormat>
@@ -1937,7 +1941,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v2.0/data/F4F2019_2021_ContinuousTempDO.csv</url>
           </online>
         </distribution>
       </physical>
@@ -2011,12 +2015,12 @@
       <numberOfRecords>82809</numberOfRecords>
     </dataTable>
     <dataTable>
-      <entityName>F4F_Complete2019&amp;2021ZoopsPerM3andWaterQuality.csv</entityName>
+      <entityName>F4F2019_2021_CompleteZoopsPerM3andWaterQuality.csv</entityName>
       <entityDescription>Zooplankton Density and Water Quality Data</entityDescription>
       <physical>
-        <objectName>F4F_Complete2019&amp;2021ZoopsPerM3andWaterQuality.csv</objectName>
-        <size unit="bytes">312167</size>
-        <authentication method="MD5">075fcf9ccaf610a84fb45800d1f8190c</authentication>
+        <objectName>F4F2019_2021_CompleteZoopsPerM3andWaterQuality.csv</objectName>
+        <size unit="bytes">312764</size>
+        <authentication method="MD5">aab27e28729165dd07bc85dd7ecf6669</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -2029,7 +2033,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v2.0/data/F4F2019_2021_CompleteZoopsPerM3andWaterQuality.csv</url>
           </online>
         </distribution>
       </physical>
@@ -3315,12 +3319,12 @@
       <numberOfRecords>822</numberOfRecords>
     </dataTable>
     <dataTable>
-      <entityName>F4F2019&amp;2021_LocationLookupTable.csv</entityName>
+      <entityName>F4F2019_2021_LocationLookupTable.csv</entityName>
       <entityDescription>Location Lookup Table for Sample Site</entityDescription>
       <physical>
-        <objectName>F4F2019&amp;2021_LocationLookupTable.csv</objectName>
-        <size unit="bytes">2747</size>
-        <authentication method="MD5">3996cb1cd05424759da2c4476ba77e9b</authentication>
+        <objectName>F4F2019_2021_LocationLookupTable.csv</objectName>
+        <size unit="bytes">2658</size>
+        <authentication method="MD5">0a0b62fdd7c4a48f88395b73699b7a07</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -3333,7 +3337,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v2.0/data/F4F2019_2021_LocationLookupTable.csv</url>
           </online>
         </distribution>
       </physical>

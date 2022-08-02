@@ -16,7 +16,13 @@ datatable_metadata <- tibble(filepath = c("data/F4F2019&2021_FishGrowth.csv",
                                                        "Continuous Temperature Data",
                                                        "Zooplankton Density and Water Quality Data",
                                                        "Location Lookup Table for Sample Site"
-                                                       ))
+                                                       ),
+                             datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/edi.996.1/v2.0/",
+                                                 c("data/F4F2019&2021_FishGrowth.csv",
+                                                   "data/F4F2019&2021_ContinuousTempDO.csv",
+                                                   "data/F4F_Complete2019&2021ZoopsPerM3andWaterQuality.csv",
+                                                   "data/F4F2019&2021_LocationLookupTable.csv"
+                                                 )))
 
 
 # TODO Check warnings when reading in excel sheets
@@ -32,8 +38,8 @@ methods_docx <- "data-raw/metadata/F4F2019_methods_updatedthrough2021.docx"
 #                              environment = "staging")
 
 
-# edi_number = "edi.996.2"
-edi_number = "edi.946.1"
+edi_number = "edi.996.2"
+# edi_number = "edi.946.1"
 dataset <- list() %>%
   add_pub_date() %>%
   add_title(metadata$title) %>%
@@ -70,5 +76,9 @@ eml <- list(packageId = edi_number,
             additionalMetadata = list(metadata = list(
               unitList = unitList)))
 
-EML::write_eml(eml, "edi.946.1.xml")
-EML::eml_validate("edi.946.1.xml")
+EML::write_eml(eml, "edi.996.2.xml")
+EML::eml_validate("edi.996.2.xml")
+
+evaluate_edi_package(eml_file_path = "edi.996.2.xml", Sys.getenv("user_id"), Sys.getenv("password"), environment = "production")
+
+upload_edi_package(eml_file_path = "edi.946.1.xml", Sys.getenv("user_id"), Sys.getenv("password"), environment = "staging")

@@ -4,7 +4,7 @@ library(tidyverse)
 # Load in all the documents
 datatable_metadata <- tibble(filepath = c("data/F4F2019_2021_FishGrowth.csv",
                                           "data/F4F2019_2021_ContinuousTempDO.csv",
-                                          "data/F4F_Complete2019_2021ZoopsPerM3andWaterQuality.csv",
+                                          "data/F4F2019_2021_CompleteZoopsPerM3andWaterQuality",
                                           "data/F4F2019_2021_LocationLookupTable.csv"
                                           ),
                              attribute_info = c("data-raw/metadata/F4F2019_FishGrowth_AttributesTable.xlsx",
@@ -20,7 +20,7 @@ datatable_metadata <- tibble(filepath = c("data/F4F2019_2021_FishGrowth.csv",
                              datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/edi.996.1/v2.0/",
                                                  c("data/F4F2019_2021_FishGrowth.csv",
                                                    "data/F4F2019_2021_ContinuousTempDO.csv",
-                                                   "data/F4F_Complete2019_2021ZoopsPerM3andWaterQuality.csv",
+                                                   "data/F4F2019_2021_CompleteZoopsPerM3andWaterQuality.csv",
                                                    "data/F4F2019_2021_LocationLookupTable.csv"
                                                  )))
 
@@ -38,8 +38,8 @@ methods_docx <- "data-raw/metadata/F4F2019_methods_updatedthrough2021.docx"
 #                              environment = "staging")
 
 
-edi_number = "edi.996.2"
-# edi_number = "edi.946.1"
+# edi_number = "edi.996.2"
+edi_number = "edi.946.1"
 dataset <- list() %>%
   add_pub_date() %>%
   add_title(metadata$title) %>%
@@ -76,9 +76,9 @@ eml <- list(packageId = edi_number,
             additionalMetadata = list(metadata = list(
               unitList = unitList)))
 
-EML::write_eml(eml, "edi.996.2.xml")
-EML::eml_validate("edi.996.2.xml")
+EML::write_eml(eml, "edi.946.1.xml")
+EML::eml_validate("edi.946.1.xml")
 
-evaluate_edi_package(eml_file_path = "edi.996.2.xml", Sys.getenv("edi_user_id"), Sys.getenv("edi_password"), environment = "staging")
+evaluate_edi_package(eml_file_path = "edi.946.1.xml", Sys.getenv("edi_user_id"), Sys.getenv("edi_password"), environment = "staging")
 
 upload_edi_package(eml_file_path = "edi.946.1.xml", Sys.getenv("user_id"), Sys.getenv("password"), environment = "staging")

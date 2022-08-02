@@ -98,6 +98,6 @@ locations <- read_excel("data-raw/metadata/F4F2021_LocationLookupTable.xlsx") %>
 # save cleaned data to `data/`
 write_csv(temp_data, 'data/F4F2019_2021_ContinuousTempDO.csv')
 write_csv(fish_data, 'data/F4F2019_2021_FishGrowth.csv')
-write_csv(zoop_data, 'data/F4F_Complete2019_2021ZoopsPerM3andWaterQuality.csv')
+write_csv(zoop_data, 'data/F4F2019_2021_CompleteZoopsPerM3andWaterQuality.csv')
 write_csv(locations, "data//F4F2019_2021_LocationLookupTable.csv")
 

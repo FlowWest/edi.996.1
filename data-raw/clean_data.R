@@ -92,7 +92,8 @@ fish_data <- bind_rows(fish_data_2019, fish_data_2021) %>% glimpse
 # Location lookup table
 # locations_2019 <- read_excel("data-raw/metadata/F4F2019_LocationLookupTable.xlsx") %>% glimpse
 
-locations <- read_excel("data-raw/metadata/F4F2021_LocationLookupTable.xlsx") %>% glimpse
+locations <- read_excel("data-raw/metadata/F4F2021_LocationLookupTable.xlsx") %>%
+  separate(`Lat, lon (UTM)`, into = c("Lat (UTM)", "Lon (UTM)"), ",") %>% glimpse
 
 # save cleaned data to `data/`
 write_csv(temp_data, 'data/F4F2019&2021_ContinuousTempDO.csv')

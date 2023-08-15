@@ -31,6 +31,8 @@ zoops_wq_raw <- read_csv('data-raw/metadata/2022_update/F4F2021_Complete2021Zoop
 zoops_wq <- zoops_wq_raw |>
   mutate(DATE = lubridate::mdy(DATE)) |>
   select(-`...1`) |>
+  rename(Illyocypris = Ilyocypris,
+         Hyallela = Hyalella) |>
   glimpse()
 
 # TODO: BGA has negative values. what is BGA? blue-green algae fluorescence
@@ -39,7 +41,16 @@ zoops_wq <- zoops_wq_raw |>
 ggplot(zoops_wq) +
   geom_point(aes(x = DATE, y = BGA...g.L.))
 
+# make sure columns align between data and metadata:
+zoop_cols <- colnames(zoops_wq)
+metadata_cols <- readxl::read_excel("data-raw/metadata/2022_update/F4F2021_metadata2022.xlsx", sheet = "attribute") |>
+  pull(attribute_name)
+
+setdiff(zoop_cols, metadata_cols)
+setdiff(metadata_cols, zoop_cols)
+
 write_csv(zoops_wq, 'data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv')
+
 
 # F4F2021_ContinuousTempDO_AttributesTable2022 ----------------------------
 # F4F2021_ContinuousTempDO2022

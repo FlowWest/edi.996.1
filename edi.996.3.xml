@@ -1,0 +1,3790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.996.3" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>cvpia</principal>
+      <permission>write</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>F4F2021</shortName>
+    <title>Fish Food on Floodplain Farm Fields 2021</title>
+    <creator id="0000-0002-1506-5611">
+      <individualName>
+        <givenName>Jacob</givenName>
+        <surName>Montgomery</surName>
+      </individualName>
+      <organizationName>California Trout</organizationName>
+      <electronicMailAddress>jacob@caltrout.org</electronicMailAddress>
+    </creator>
+    <pubDate>2023-08-15</pubDate>
+    <abstract>
+      <section>
+        <title>2019 Water Year (October 1, 2018 through September 30,
+    2019)</title>
+        <para>
+      In the winter and spring of 2018-2019, 5,000 acres of agricultural
+      land in Yolo County, California was intentionally flooded. These
+      “dry-side” rice fields, although on the former floodplain of the
+      Sacramento River, are separated from the fish-bearing Sacramento
+      River (the “wet-side”) by high flood levees. Today, levees cut off
+      95% of the Central Valley’s floodplains from river channels so
+      that Central Valley aquatic ecosystems no longer recruit
+      floodplain the food web resources needed to support robust aquatic
+      food webs, create fish biomass and sustain abundant fish
+      populations.
+    </para>
+        <para>
+      In this experiment we asked whether floodplain food web resources
+      “grown” in intentionally inundated “dry-side” agricultural fields
+      could be exported back to the river via flood drainage
+      infrastructure. If so, we were interested to know whether those
+      resources could improve juvenile salmon foraging success and
+      increase growth rates. In order to test these questions, we caged
+      fish in the floodplain drainage canal, at the location where the
+      floodplain drainage water entered the river and at locations both
+      up- and downstream. We hypothesized that zooplankton abundance and
+      fish growth rates would be elevated at the managed floodplain
+      outfall location, relative to the upstream location. We measured
+      water quality parameters, zooplankton species assemblage and
+      abundance, and juvenile Chinook salmon growth rates with PIT
+      tagged, hatchery-origin fish confined to enclosures at the study
+      locations. The 5,000 acres of managed floodplain was drained over
+      the coarse of 5 weeks in February and March, 2019 at a maximum
+      rate of 1,000 cfs. The Sacramento River flow during the experiment
+      ranged from 20,000-30,000 cfs. Fish growth rates at the floodplain
+      outfall location were up to five times greater than growth rates
+      upstream of the outfall and enclosure fish experienced growth rate
+      benefits at least up to a mile downstream from the managed
+      floodplain outfall.
+    </para>
+        <para>
+      This study demonstrated a management practice that transfers
+      floodplain food web benefits from managed floodplains without
+      anadromous fish access, to the food-scarce Sacramento River
+      ecosystem. Multiple districts across the Sacramento Valley
+      maintain similar water infrastructure to what was used in this
+      pilot action. If incorporated at large scale into water management
+      practices, fish food production on “dry-side” agricultural fields
+      and wildlife refuges could contribute substantial food resources
+      to rearing and out-migrating juvenile salmon populations in the
+      Sacramento River system.
+    </para>
+      </section>
+      <section>
+        <title>2020 Water Year (October 1, 2019 through September 30,
+    2020)</title>
+        <para>
+      No Fish Food project was implemented this year.
+    </para>
+      </section>
+      <section>
+        <title>2021 Water Year (October 1, 2020 through September 30,
+    2021)</title>
+        <para>
+      In the winter and spring of 2020-2021, 8,775 acres of agricultural
+      land in Yolo County, California was intentionally flooded. These
+      “dry-side” rice fields, although on the former floodplain of the
+      Sacramento River, are separated from the fish-bearing Sacramento
+      River (the “wet-side”) by high flood levees. Today, levees cut off
+      95% of the Central Valley’s floodplains from river channels so
+      that Central Valley aquatic ecosystems no longer recruit
+      floodplain the food web resources needed to support robust aquatic
+      food webs, create fish biomass and sustain abundant fish
+      populations.
+    </para>
+        <para>
+      In this experiment we asked whether floodplain food web resources
+      “grown” in intentionally inundated “dry-side” agricultural fields
+      could be exported back to the river via flood drainage
+      infrastructure. If so, we were interested to know whether those
+      resources could improve juvenile salmon foraging success and
+      increase growth rates. In order to test these questions, we caged
+      fish in the floodplain drainage canal, at the location where the
+      floodplain drainage water entered the river and at locations both
+      up- and downstream. We hypothesized that zooplankton abundance and
+      fish growth rates would be elevated at the managed floodplain
+      outfall location, relative to the upstream location. We measured
+      water quality parameters, zooplankton species assemblage and
+      abundance, and juvenile Chinook salmon growth rates with PIT
+      tagged, hatchery-origin fish confined to enclosures at the study
+      locations. The 8,775 acres of managed floodplain was drained over
+      the coarse of 5 weeks in February and March, 2021 at a maximum
+      rate of 1,000 cfs. The Sacramento River flow during the experiment
+      ranged from 3,000-12,000 cfs. Fish growth rates at the floodplain
+      outfall location were up to twelve times greater than growth rates
+      upstream of the outfall and enclosure fish experienced growth rate
+      benefits at least up to six miles downstream from the managed
+      floodplain outfall.
+    </para>
+        <para>
+      This study demonstrated a management practice that transfers
+      floodplain food web benefits from managed floodplains without
+      anadromous fish access, to the food-scarce Sacramento River
+      ecosystem. Multiple districts across the Sacramento Valley
+      maintain similar water infrastructure to what was used in this
+      pilot action. If incorporated at large scale into water management
+      practices, fish food production on “dry-side” agricultural fields
+      and wildlife refuges could contribute substantial food resources
+      to rearing and out-migrating juvenile salmon populations in the
+      Sacramento River system.
+    </para>
+      </section>
+      <section>
+        <title>2022 Water Year (October 1, 2021 through September 30,
+    2022)</title>
+        <para>
+      In the winter and spring of 2021-2022, 9,943 acres of agricultural
+      land in Yolo County, California was intentionally flooded. These
+      “dry-side” rice fields, although on the former floodplain of the
+      Sacramento River, are separated from the fish-bearing Sacramento
+      River (the “wet-side”) by high flood levees. Today, levees cut off
+      95% of the Central Valley’s floodplains from river channels so
+      that Central Valley aquatic ecosystems no longer recruit
+      floodplain the food web resources needed to support robust aquatic
+      food webs, create fish biomass and sustain abundant fish
+      populations.
+    </para>
+        <para>
+      In this experiment we asked whether floodplain food web resources
+      “grown” in intentionally inundated “dry-side” agricultural fields
+      could be exported back to the river via flood drainage
+      infrastructure. If so, we were interested to know whether those
+      resources could improve juvenile salmon foraging success and
+      increase growth rates. In order to test these questions, we caged
+      fish in the floodplain drainage canal, at the location where the
+      floodplain drainage water entered the river and at locations both
+      up- and downstream. We hypothesized that zooplankton abundance and
+      fish growth rates would be elevated at the managed floodplain
+      outfall location, relative to the upstream location. We measured
+      water quality parameters, zooplankton species assemblage and
+      abundance, and juvenile Chinook salmon growth rates with PIT
+      tagged, hatchery-origin fish confined to enclosures at the study
+      locations. The 9,943 acres of managed floodplain was drained over
+      the coarse of 5 weeks in February and March, 2022 at a maximum
+      rate of 300 cfs. The Sacramento River flow during the experiment
+      ranged from 3,000-5,000 cfs. Fish growth rates at the floodplain
+      outfall location were up to three times greater than growth rates
+      upstream of the outfall.
+    </para>
+        <para>
+      This study demonstrated a management practice that transfers
+      floodplain food web benefits from managed floodplains without
+      anadromous fish access, to the food-scarce Sacramento River
+      ecosystem. Multiple districts across the Sacramento Valley
+      maintain similar water infrastructure to what was used in this
+      pilot action. If incorporated at large scale into water management
+      practices, fish food production on “dry-side” agricultural fields
+      and wildlife refuges could contribute substantial food resources
+      to rearing and out-migrating juvenile salmon populations in the
+      Sacramento River system.
+    </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>aquatic ecosystems</keyword>
+      <keyword>fishes</keyword>
+      <keyword>aquatic invertebrates</keyword>
+      <keyword>rivers</keyword>
+      <keyword>agriculture</keyword>
+      <keyword>floodplains</keyword>
+      <keyword>wetlands</keyword>
+      <keyword>zooplankton</keyword>
+      <keyword>food webs</keyword>
+      <keywordThesaurus>LTER</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>floodplains</keyword>
+      <keyword>wetlands</keyword>
+      <keyword>constructed wetlands</keyword>
+      <keyword>flooded land</keyword>
+      <keyword>marshes</keyword>
+      <keyword>rice</keyword>
+      <keyword>agroecosystems</keyword>
+      <keyword>agropisciculture</keyword>
+      <keyword>ricefield aquaculture</keyword>
+      <keyword>flood control</keyword>
+      <keyword>levee management</keyword>
+      <keyword>freshwater management</keyword>
+      <keyword>hydrological restoration</keyword>
+      <keywordThesaurus>AGROVOC</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This data package is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein "website") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available "as is" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Zero v1.0 Universal</licenseName>
+      <url>https://spdx.org/licenses/CC0-1.0.html</url>
+      <identifier>CC0-1.0</identifier>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Sacramento Valley, CA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.024</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.6065</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.1973</northBoundingCoordinate>
+          <southBoundingCoordinate>38.3719</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2020-11-02</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2022-04-25</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Hexanauplia</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Calanoida</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Pseudodiaptomidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Pseudodiaptomus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>zooplankton</commonName>
+                      <taxonId provider="https://itis.gov">Pseudodiptomus.Adult</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Hexanauplia</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Calanoida</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Pseudodiaptomidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Pseudodiaptomus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>zooplankton</commonName>
+                      <taxonId provider="https://itis.gov">Psedodiptomus.copepidite</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Hexanauplia</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cyclopoida</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Cyclopidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Acanthocyclops</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>zooplankton</commonName>
+                      <taxonId provider="https://itis.gov">Acanthocyclops.adult</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Hexanauplia</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cyclopoida</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Cyclopidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Acanthocyclops</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>zooplankton</commonName>
+                      <taxonId provider="https://itis.gov">Acanthocyclops.copepididte</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Hexanauplia</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cyclopoida</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Cyclopidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>zooplankton</commonName>
+                      <taxonId provider="https://itis.gov">Cyclopoid.sp.</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Hexanauplia</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cyclopoida</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Cyclopidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>zooplankton</commonName>
+                      <taxonId provider="https://itis.gov">Cyclopoid.nauplii</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Hexanauplia</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Calanoida</taxonRankName>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>zooplankton</commonName>
+                      <taxonId provider="https://itis.gov">Calanoid.naulpii</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Hexanauplia</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Harpacticoida</taxonRankName>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>zooplankton</commonName>
+                      <taxonId provider="https://itis.gov">Harpaticoid</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Daphniidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Daphnia</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>pulex</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Daphnia.pulex</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Daphniidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Daphnia</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>laevis</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Daphnia.laevis</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Daphniidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Daphnia</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>magna</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Daphnia.magna</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Daphniidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Daphnia</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>mendotea</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Daphnia.mendotea</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Daphniidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Ceriodaphnia</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Ceriodaphnia.sp.</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Daphniidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Simocephalus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Simocephalus.sp.</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Bosminidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Bosmina</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Bosmina.sp.</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Sididae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Sida</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Sididae</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Chydoridae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Chydorus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>sphaericus</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Chydorus.sphaericus</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Chydoridae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Eurycercus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Eurycercus</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Chydoridae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Alona</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Alona</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Chydoridae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Chydoridae</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Sididae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Diaphanosoma</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Diaphanosoma</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Daphniidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Scapholeberis</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Scapholeberis</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Cladocera.embryo</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Ostracoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Podocopida</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Cyprididae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Eucypris</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>seed shrimp</commonName>
+                      <taxonId provider="https://itis.gov">Eucypris</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Ostracoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Podocopida</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Cyprididae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Ilyocypris</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>seed shrimp</commonName>
+                      <taxonId provider="https://itis.gov">Ilyocypris</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Ostracoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Podocopida</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Cyprididae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Cypridopsis</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>seed shrimp</commonName>
+                      <taxonId provider="https://itis.gov">Cypridopsis</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Malacostraca</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Amphipoda</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Gammaridae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Gammarus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>scud</commonName>
+                      <taxonId provider="https://itis.gov">Gammarus</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Rotifera</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>wheel animal</commonName>
+                      <taxonId provider="https://itis.gov">Rotifer</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Annelida</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Polychaeta</taxonRankName>
+              <taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>bristle worm</commonName>
+                      <taxonId provider="https://itis.gov">Polychaete</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Arachnida</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Trombidiformes</taxonRankName>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water mite</commonName>
+                      <taxonId provider="https://itis.gov">Acari</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Insecta</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Diptera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Chironomidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>midge</commonName>
+                      <taxonId provider="https://itis.gov">Chironomid.larvae</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Annelida</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Clitellata</taxonRankName>
+              <taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>worm</commonName>
+                      <taxonId provider="https://itis.gov">Oliogochaete</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Molluska</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Gastropoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>snail</commonName>
+                      <taxonId provider="https://itis.gov">Gastropod</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Tardigrada</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water bear</commonName>
+                      <taxonId provider="https://itis.gov">Tardigrade</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Nematoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>roundworm</commonName>
+                      <taxonId provider="https://itis.gov">Nematode</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Malacostraca</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Amphipoda</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Hyalellidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Hyalella</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>scud</commonName>
+                      <taxonId provider="https://itis.gov">Hyalella</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Cnidaria</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Hydrozoa</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Anthoathecata</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Hydridae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Hydra</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>hydra</commonName>
+                      <taxonId provider="https://itis.gov">Hydra</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Insecta</taxonRankName>
+              <taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>bug</commonName>
+                      <taxonId provider="https://itis.gov">Terrestrial.insect</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Entognatha</taxonRankName>
+              <taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>springtail</commonName>
+                      <taxonId provider="https://itis.gov">Collembola</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Insecta</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Ephemoroptera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Beatidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>mayfly</commonName>
+                      <taxonId provider="https://itis.gov">Baetidae</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Insecta</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Diptera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>fly</commonName>
+                      <taxonId provider="https://itis.gov">Diptera</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Insecta</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Trichoptera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Hydroptilidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>caddisfly</commonName>
+                      <taxonId provider="https://itis.gov">Hydroptilidae</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Insecta</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Coleoptera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>beetle</commonName>
+                      <taxonId provider="https://itis.gov">Coleoptera</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Insecta</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Ephemoroptera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Ephemerellidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>spiny crawler mayfly</commonName>
+                      <taxonId provider="https://itis.gov">Ephemerellidae</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Insecta</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Odonata</taxonRankName>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>damselfly</commonName>
+                      <taxonId provider="https://itis.gov">Odonata</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Molluska</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Bivalvia</taxonRankName>
+              <taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>clam</commonName>
+                      <taxonId provider="https://itis.gov">Bivalve</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Insecta</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Trichoptera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>caddisfly</commonName>
+                      <taxonId provider="https://itis.gov">Trichoptera</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Insecta</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Hemiptera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Corixidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water boatmen</commonName>
+                      <taxonId provider="https://itis.gov">Corixidae</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Chordata</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Actinopterygii</taxonRankName>
+              <taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>larval fish</commonName>
+                      <taxonId provider="https://itis.gov">Fish.larvae</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Macrothricidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Streblocerus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Streblocerus</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Malacostraca</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Amphipoda</taxonRankName>
+                <taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>scud</commonName>
+                      <taxonId provider="https://itis.gov">Amphipod</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Ilyocryptidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Ilyocryptus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Ilyocryptus</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Arthropoda</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Barnchiopoda</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cladocera</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Moinidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>spp</taxonRankName>
+                      <commonName>water flea</commonName>
+                      <taxonId provider="https://itis.gov">Moina</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jacob</givenName>
+        <surName>Montgomery</surName>
+      </individualName>
+      <organizationName>California Trout</organizationName>
+      <electronicMailAddress>jacob@caltrout.org</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>METHODS - Water Year 2019 (October 1, 2018 through September
+    30, 2019)</title>
+            <para>
+    </para>
+          </section>
+          <section>
+            <title>Study location</title>
+            <para>
+      Flooding for the Pilot Action experiment took place in the Colusa
+      Basin on 5,435 acres owned by Reclamation District 108 (RD 108)
+      near Knights Landing, CA. Sampling was conducted in the RD108
+      canal system immediately before canal water was pumped into the
+      Sacramento River at the Rough and Ready pumping facility
+      (approximately river mile 100), and in the River up- and
+      downstream of the pump discharge location (Fig.1).
+    </para>
+            <para>
+      Figure 1: Study location in western Sacramento Valley just north
+      of Knights Landing; The 5,435 acres of Reclamation District 108
+      and River Garden Farms fields inundated and drained as part of the
+      experiment are shaded in blue, water drains via gravity from
+      fields through canals to the Rough and Ready pumping station
+      (yellow star) where it is pumped into the Sacramento River
+      (flowing from north to south). Sample locations within the river
+      where juvenile Chinook salmon were caged are labeled “upstream”,
+      “outfall”, and “one-mile downstream”. See Figure 1 here:
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/fig_1.png
+    </para>
+          </section>
+          <section>
+            <title>Water management</title>
+            <para>
+      Starting on December 15, 2018, 7,175 acre-feet of water was used
+      to flood the 5,435 participating managed floodplain acres.
+      Flood-up was completed by January 15, 2019. Drainage began
+      February 8, 2019 and ended March 8, 2019. Approximately
+      one-quarter of the flooded acreage was drained each week. The
+      Rough and Ready pumping facility can operate over a broad range of
+      export discharge rates between 80-955cfs. For baseline conditions,
+      a single 80cfs pump can be used. For higher discharge rates the
+      facility has five 175cfs pumps which can be run individually or
+      together in various combinations.
+    </para>
+          </section>
+          <section>
+            <title>Sampling dates and locations</title>
+            <para>
+      Weekly sampling to assess conditions before and after the Pilot
+      Action in the Sacramento River began November 13, 2018 and
+      continued through April 8, 2019. Sampling for the experimental
+      flood/drain cycle began February 5, 2019 and continued weekly
+      through March 10, 2019.
+    </para>
+            <para>
+      Site locations (Fig. 1, Table 1) included the drainage canal at
+      the export pumps (RRCAN), in the Sacramento River upstream of the
+      pump discharge (RRSAC1), two locations in the Sacramento River at
+      the pump outfall (RRSAC2A and RRSAC2B), in the Sacramento River a
+      half mile downstream of the export pumps (RRSAC3), and in the
+      Sacramento River one mile downstream of the pumps (RRSAC4). Two
+      cage locations were selected at the pump outfall site in the
+      Sacramento River in order to protect against damaged or lost cages
+      at a location that 1) is a popular public fishing spot where
+      potential vandalism was a concern, 2) is located on an outside
+      bend in the river prone to debris accumulation, and 3) where a
+      turbulent upstream eddy forms when the pumps are discharging
+      making tethering cages particularly challenging. The second
+      location (RRSAC2B), immediately upstream of the export pumps and
+      within the upstream eddy and protected from view and from debris
+      by riparian vegetation, was added to create redundancy and
+      alleviate some of these concerns.
+    </para>
+            <para>
+      Table 1: Sample location codes and descriptions. See Table 1 here:
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/table_1.png
+    </para>
+          </section>
+          <section>
+            <title>Water quality and zooplankton sampling</title>
+            <para>
+      At each sample location, water quality data was collected with a
+      YSI Exo2 multi-parameter sonde. Water quality parameters collected
+      were: temperature (degrees C), dissolved oxygen (mg/L), turbidity
+      (NTU), chlorophyl-a fluorescence (µg/L), blue-green algae
+      fluorescence (µg/L), electrical conductivity (µg/cm), salinity
+      (PSU), and pH. Onset HOBO dissolved oxygen and temperature data
+      loggers were deployed at all locations collecting continuous data
+      at 15-minute intervals.
+    </para>
+            <para>
+      All sites were sampled for zooplankton diversity and abundance
+      using net tows. In the river, a 30-cm diameter x 150 µm mesh
+      zooplankton net fitted with a flowmeter was thrown five meters and
+      retrived through the water column four times orthogonal to water
+      flow, accounting for drift. Flow meter data was recorded to
+      quantify the volume of water sampled. In the canal site where
+      water stage fluctuations occasionally limit the use of a larger
+      net, a 15-cm diameter x 150 µm mesh zooplankton net was thrown
+      five meters and retrieved through the water column four times.
+      Shallow-water nets cannot be fitted with a flowmeter and the
+      volume of water sampled can be determined by the area of the mouth
+      of the net multiplied by the distance towed
+      (π*.075<superscript>2</superscript>*20 ~
+      0.35m<superscript>3</superscript>). All zooplankton samples were
+      preserved in 95% ethanol. Zooplankton were identified to the
+      lowest taxonomic level possible and counted using a dissecting
+      microscope at 8x magnification. Dry carbon biomass conversions
+      either taken from the literature (Dumont 1975) or measured
+      empirically by the Kimmerer Laboratory at San Francisco State’s
+      Romber Tiburon Center were applied to zooplankton species counts
+      to estimate zooplaknton biomass.
+    </para>
+          </section>
+          <section>
+            <title>Fish growth</title>
+            <para>
+      Two or three enclosures were deployed at each site (two each at
+      RRSAC2A and RRSAC2B and three everywhere else), each containing 10
+      PIT-tagged Feather River hatchery-origin juvenile Chinook salmon.
+      Fish enclosures were built with 1-inch PVC, measured 4-feet wide
+      by 4-feet long by 2-feet deep, and encased in ¼-inch black plastic
+      square mesh with a re-sealable access door on the top panel. Fish
+      enclosures were equipped with four bullet-shaped crab floats and
+      tethered to shore. Each week, fish were caught out of their
+      enclosures, scanned for PIT identification, measured for fork
+      length in millimeters, and weighed for mass in grams on an OHAUS
+      Scout Pro portable electronic balance with 0.01g precision. If
+      there was fish mortality, “placebo fish” were added to an
+      enclosure to maintain fish density at 10 fish per enclosure.
+      placebo fish were of identical origin to enclosure fish and were
+      maintained at the UC Davis Center for Aquatic Biology and
+      Aquaculture for the duration of the Pilot Action.
+    </para>
+            <para>
+      Fish growth data was analyzed in rate of change metrics for fork
+      length, weight, and Fulton’s condition factor. Rate of change
+      (i.e., growth rate) was used to eliminate magnitude of change
+      differences from smaller or larger starting points. Fork length is
+      the most commonly used metric for salmonid size and is useful for
+      comparing to other data. Weight is an important indicator,
+      particularly for floodplain growth, because fish typically put on
+      more mass relative to length in high-food density environments.
+      And Fulton’s condition factor (K = [weight (g) * 100,000]/[fork
+      length<superscript>3</superscript>]) is useful for integrating
+      both length and weight metrics into a single unit.
+    </para>
+          </section>
+          <section>
+            <title>METHODS - Water Year 2021 (October 1, 2020 through September
+    30, 2021)</title>
+            <para>
+    </para>
+          </section>
+          <section>
+            <title>Study location</title>
+            <para>
+      Flooding for the Pilot Action experiment took place in the Colusa
+      Basin on 8,775 acres owned by Reclamation District 108 (RD 108)
+      near Knights Landing, CA. Sampling was conducted in the RD108
+      canal system immediately before canal water was pumped into the
+      Sacramento River at the Rough and Ready pumping facility
+      (approximately river mile 100), and in the River up- and
+      downstream of the pump discharge location (Figs.2,3).
+    </para>
+            <para>
+      Figure 2: The 8,775 acres of Reclamation District 108 and River
+      Garden Farms fields inundated and drained as part of the
+      experiment are shaded in blue, water drains via gravity from
+      fields through canals to the Rough and Ready pumping station
+      (yellow star) where it is pumped into the Sacramento River
+      (flowing from north to south). See Figure 2 here:
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/fig_2.png
+    </para>
+            <para>
+      Figure 3: River monitoring sites with site codes, and approximate
+      RD 108 acreage with distributary canals. See Figure 3 here:
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/fig_3.png
+    </para>
+          </section>
+          <section>
+            <title>Water management</title>
+            <para>
+      Starting on October 23, 2020, 14,836 acre-feet of water was used
+      to flood the 8,775 participating managed floodplain acres, and
+      2,164 of those acres flooded and drained twice during the
+      management period. That twice-drained subset completed the first
+      drain by January 5, 2021 and was reflooded by January 25, 2021.
+      The complete drainage of participating acres February 15 and ended
+      March 8, 2021. Approximately one-quarter of the flooded acreage
+      was drained each week. The Rough and Ready pumping facility can
+      operate over a broad range of export discharge rates between
+      80-955cfs. For baseline conditions, a single 80cfs pump can be
+      used. For higher discharge rates the facility has five 175cfs
+      pumps which can be run individually or together in various
+      combinations.
+    </para>
+          </section>
+          <section>
+            <title>Sampling dates and locations</title>
+            <para>
+      Weekly sampling to assess conditions before and after the Fish
+      Food Management Action in the Sacramento River began November 9,
+      2020 and continued through March 29, 2021. Sampling for the
+      experimental flood/drain cycles began January 5, 2021 and
+      continued weekly through March 8, 2021.
+    </para>
+            <para>
+      Site locations (Fig. 3, Table 2) included the drainage canal at
+      the export pumps (RRCAN), in the Sacramento River upstream of the
+      pump discharge (RRSAC1), two locations in the Sacramento River at
+      the pump outfall (RRSAC2A and RRSAC2C), in the Sacramento River
+      one mile downstream of the export pumps (RRSAC4), in the
+      Sacramento River two miles downstream of the pumps (RRSAC5), in
+      the Sacramento River three miles downstream of the pumps (RRSAC6),
+      in the Sacramento River four miles downstream of the pumps
+      (RRSAC7), and in the Sacramento River six miles downstream of the
+      pumps (RRSAC8). Two cage locations were selected at the pump
+      outfall site in the Sacramento River in order to protect against
+      damaged or lost cages at a location that 1) is a popular public
+      fishing spot where potential vandalism was a concern, 2) is
+      located on an outside bend in the river prone to debris
+      accumulation, and 3) where a turbulent upstream eddy forms when
+      the pumps are discharging making tethering cages particularly
+      challenging. The second location (RRSAC2C), immediately downstream
+      of the export pumps and within the outflow plume from the pumping
+      station, was added to create redundancy and alleviate some of
+      these concerns.
+    </para>
+            <para>
+      Table 2: Sample location codes and descriptions. Site codes with
+      an * next to the code are identical to those sampled in the 2019
+      Pilot Action.
+    </para>
+            <para>
+      See Table 2 here:
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/table_2.png
+    </para>
+          </section>
+          <section>
+            <title>Water quality and Zooplankton sampling</title>
+            <para>
+      At each sample location, water quality data was collected with a
+      YSI Exo2 multi-parameter sonde. Water quality parameters collected
+      were: temperature (degrees C), dissolved oxygen (mg/L), turbidity
+      (NTU), chlorophyl-a fluorescence (µg/L), blue-green algae
+      fluorescence (µg/L), electrical conductivity (µg/cm), salinity
+      (PSU), and pH. Onset HOBO dissolved oxygen and temperature data
+      loggers were deployed at all locations collecting continuous data
+      at 15-minute intervals.
+    </para>
+            <para>
+      All sites were sampled for zooplankton diversity and abundance
+      using net tows. In the river, a 30-cm diameter x 150 µm mesh
+      zooplankton net fitted with a flowmeter was thrown five meters and
+      retrived through the water column four times orthogonal to water
+      flow, accounting for drift. Flow meter data was recorded to
+      quantify the volume of water sampled. In the canal site where
+      water stage fluctuations occasionally limit the use of a larger
+      net, a 15-cm diameter x 150 µm mesh zooplankton net was thrown
+      five meters and retrieved through the water column four times.
+      Shallow-water nets cannot be fitted with a flowmeter and the
+      volume of water sampled can be determined by the area of the mouth
+      of the net multiplied by the distance towed
+      (π*.075<superscript>2</superscript>*20 ~
+      0.35m<superscript>3</superscript>). All zooplankton samples were
+      preserved in 95% ethanol. Zooplankton were identified to the
+      lowest taxonomic level possible and counted using a dissecting
+      microscope at 8x magnification. Dry carbon biomass conversions
+      either taken from the literature (Dumont 1975) or measured
+      empirically by the Kimmerer Laboratory at San Francisco State’s
+      Romber Tiburon Center were applied to zooplankton species counts
+      to estimate zooplaknton biomass.
+    </para>
+          </section>
+          <section>
+            <title>Fish growth</title>
+            <para>
+      Three enclosures were deployed at each site, each containing 5
+      PIT-tagged Coleman Hatchery-origin juvenile Chinook salmon. Fish
+      enclosures were built with 1-inch PVC, measured 2-feet wide by
+      4-feet long by 2-feet deep, and encased in ¼-inch black plastic
+      square mesh with a re-sealable access door on the top panel. Fish
+      enclosures were equipped with four bullet-shaped crab floats and
+      tethered to shore. Each week, fish were caught out of their
+      enclosures, scanned for PIT identification, measured for fork
+      length in millimeters, and weighed for mass in grams on an OHAUS
+      Scout Pro portable electronic balance with 0.01g precision. If
+      there was fish mortality, “placebo fish” were added to an
+      enclosure to maintain fish density at 10 fish per enclosure.
+      placebo fish were of identical origin to enclosure fish and were
+      maintained at the UC Davis Center for Aquatic Biology and
+      Aquaculture for the duration of the Pilot Action.
+    </para>
+            <para>
+      Fish growth data was analyzed in rate of change metrics for fork
+      length, weight, and Fulton’s condition factor. Rate of change
+      (i.e., growth rate) was used to eliminate magnitude of change
+      differences from smaller or larger starting points. Fork length is
+      the most commonly used metric for salmonid size and is useful for
+      comparing to other data. Weight is an important indicator,
+      particularly for floodplain growth, because fish typically put on
+      more mass relative to length in high-food density environments.
+      And Fulton’s condition factor (K = [weight (g) * 100,000]/[fork
+      length<superscript>3</superscript>]) is useful for integrating
+      both length and weight metrics into a single unit.
+    </para>
+          </section>
+          <section>
+            <title>METHODS - Water Year 2022 (October 1, 2021 through September
+    30, 2022)</title>
+            <para>
+    </para>
+          </section>
+          <section>
+            <title>Study location</title>
+            <para>
+      Flooding for the fish growth experiment took place in the Colusa
+      Basin on 9,943 acres owned by Reclamation District 108 (RD 108)
+      near Knights Landing, CA. Sampling was conducted in the RD108
+      canal system and in the Sacramento River at the Rough and Ready
+      pumping facility (approximately river mile 100), and in the River
+      up- and downstream of the pump discharge location (Fig.4).
+    </para>
+            <para>
+      Figure 4: Study location in western Sacramento Valley just north
+      of Knights Landing; The 9,943 acres of Reclamation District 108
+      and participating farm fields inundated and drained as part of the
+      experiment are shaded in blue, water drains via gravity from
+      fields through canals to the Rough and Ready pumping station (blue
+      star), where it is pumped into the Sacramento River (flowing from
+      north to south). Yellow circles denote zooplankton sample sites.
+      Yellow triangles denote fish cage with zooplankton sample site.
+      Water icons denote agricultural drain/tributary confluences with
+      the river system that were monitored. See Figure 4 here:
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/fig_4.png
+    </para>
+          </section>
+          <section>
+            <title>Water management – two flood/drain cycles </title>
+            <para>
+      Starting on November 8, 2021, 12,059 acre-feet of water was used
+      to flood the 9,943 participating managed floodplain acres.
+      Resource managers achieved multiple flood/drain cycles on most of
+      the acreage enrolled in the Fish Food program this year. After
+      fields were drained they were immediately refilled and remained
+      inundated for at least an additional 3 weeks to allow invertebrate
+      food webs to rapidly return to pre-drain densities before being
+      drained again. 8,784 acres was drained starting January 3, 2022
+      and re-flooded by January 31, 2022. The second, complete drainage
+      began February 7, 2027 and ended March 7, 2022. Approximately
+      one-quarter of the flooded acreage was drained each week. The
+      Rough and Ready pumping facility can operate over a range of
+      export discharge rates between 80-955 cubic feet per second (cfs).
+      For baseline conditions, a single 80cfs pump can be used. For
+      higher discharge rates the facility has five 175cfs pumps that can
+      be run individually or together in various combinations.
+    </para>
+          </section>
+          <section>
+            <title>Sampling dates and locations </title>
+            <para>
+      Weekly sampling at all sites in the Rough and Ready canal and
+      Sacramento River began November 8, 2021 and continued through
+      March 28, 2022.
+    </para>
+            <para>
+      Site locations (Fig. 4, Table 3) include: the drainage canal at
+      the export pumps (RRCAN), Sacramento River upstream of the pump
+      discharge (RRSAC1), Sacramento River upstream at Tyndall Landing
+      (TLSAC), Sacramento River upstream at the Wilkins Slough CDEC
+      station (WLKSAC), two Sacramento River locations at the pump
+      outfall (RRSAC2A and RRSAC2C), Sacramento River one mile
+      downstream of the pumps (RRSAC4), Sacramento River two miles
+      downstream of the pumps (RRSAC5), Sacramento River three miles
+      downstream of the pumps (RRSAC6), Sacramento River four miles
+      downstream of the pumps (RRSAC7), and Sacramento River six miles
+      downstream of the pumps (RRSAC8). Two cage locations were selected
+      at the pump outfall site in the Sacramento River in order to
+      protect against damaged or lost cages at a location that 1) is a
+      popular public fishing spot where potential vandalism was a
+      concern, 2) is located on an outside bend in the river prone to
+      debris accumulation, and 3) where a turbulent upstream eddy forms
+      when the pumps are discharging, making tethering cages
+      particularly challenging. The second location selected this year
+      was different than in 2019 because the dramatic difference in
+      river flow changed the dynamics in the eddy. The second location
+      (RRSAC2C), immediately downstream of the export pumps and within
+      the tail of the eddy, was added to create redundancy and alleviate
+      some of these concerns.
+    </para>
+            <para>
+      Table 3: Sample location codes and descriptions. Site codes with
+      an * next to the code are identical to those sampled in the 2019
+      Fish Food program. Site codes with an <superscript>x</superscript>
+      next to the code are identical to those sampled in the 2021 Fish
+      Food program.
+    </para>
+            <para>
+      See Table 3 here:
+      https://cvpia-data-stewardship.s3.us-west-1.amazonaws.com/figures-for-edi/table_3.png
+    </para>
+          </section>
+          <section>
+            <title>Water quality and zooplankton sampling</title>
+            <para>
+      At each sample location, water quality data was collected with a
+      YSI Exo2 multi-parameter sonde. Water quality parameters collected
+      were: temperature (degrees C), dissolved oxygen (mg/L), turbidity
+      (NTU), chlorophyl-a fluorescence (µg/L), electrical conductivity
+      (µg/cm), salinity (PSU), and pH. Onset HOBO dissolved oxygen and
+      temperature data loggers were deployed at all locations collecting
+      continuous data at 15-minute intervals. Two oxygen loggers had
+      battery failures during the experiment and their data could not be
+      retrieved, from sites RRSAC1 and RRSAC4.
+    </para>
+            <para>
+      All sites were sampled for zooplankton diversity and abundance
+      using net tows. A 30-cm diameter x 150 µm mesh zooplankton net
+      fitted with a flowmeter was thrown five meters and retrieved
+      through the water column four times orthogonal to water flow,
+      accounting for drift. Flow meter data was recorded to quantify the
+      volume of water sampled. All zooplankton samples were preserved in
+      95% ethanol. Zooplankton were identified to the lowest taxonomic
+      level possible and counted using a dissecting microscope at 8x
+      magnification. Dry carbon biomass conversions either taken from
+      the literature (Dumont 1975) or measured empirically by the
+      Kimmerer Laboratory at San Francisco State’s Romber Tiburon Center
+      were applied to zooplankton species counts to estimate zooplankton
+      biomass.
+    </para>
+          </section>
+          <section>
+            <title>Fish growth</title>
+            <para>
+      Three fish growth enclosures were deployed at each site, each
+      containing 5 PIT-tagged Coleman Hatchery-origin juvenile Chinook
+      salmon. Fish enclosures were built with 1-inch PVC, measured
+      2-feet wide by 4-feet long by 2-feet deep, and encased in ¼-inch
+      black plastic square mesh with a re-sealable access door on the
+      top panel. Fish enclosures were equipped with three bullet-shaped
+      crab floats and tethered to shore. Each week, fish were caught out
+      of their enclosures, scanned for PIT identification, measured for
+      fork length in millimeters, and weighed for mass in grams on an
+      OHAUS Scout Pro portable electronic balance with 0.01g precision.
+      If there was fish mortality, “placebo fish” were added to an
+      enclosure to maintain fish density at 5 fish per enclosure.
+      Placebo fish were of identical origin to enclosure fish and were
+      maintained at the UC Davis Center for Aquatic Biology and
+      Aquaculture for the duration of the experiment.
+    </para>
+            <para>
+      Fish growth data was analyzed in rate of change metrics for fork
+      length and weight. Rate of change (i.e., growth rate) was used to
+      eliminate magnitude of change differences from smaller or larger
+      starting points. Only fish that were originally placed in cages
+      and survived the duration of the experiment, i.e. not placebo
+      fish, were used for growth metric data.
+    </para>
+          </section>
+          <section>
+            <title>Data analysis</title>
+            <para>
+      Water quality and zooplankton sampling occurred throughout the
+      multiple cycles however fish from the hatchery only became large
+      enough to tag in early February and were therefore only placed in
+      cages during the second drain cycle. For this reason, analysis of
+      zooplankton and fish data are grouped differently with respect to
+      drainage timing. The fish data were grouped into distinct
+      "before", "during", and "after"
+      drainage event bins. The zooplankton data bins were also named
+      with respect to their coincidence with drainage events, but in
+      only two bins: "during" and "before/after" -
+      including all samples collected before the first drain event
+      started, after the second drain event ended, and between the end
+      of the first event and the start of the second event.
+    </para>
+            <para>
+      Fork length is the most commonly used metric for salmonid size and
+      is useful for comparing to other data. However, high food-density
+      environments fish typically put on more mass relative to length.
+      Weight metrics are also bi-directional, e.g. in contrast to
+      length, weight can record negative growth in response to poor
+      foraging conditions. Overall, we feel that weight is a more
+      descriptive bioenergetic metric of fish growth and performance in
+      response to biophysical habitat conditions. For these reasons,
+      while we will report both fork length and weight data, we will
+      primarily focus on weight as the response variable in our food web
+      and bioenergetic analyses.
+    </para>
+            <para>
+      Raw data for temperature, oxygen, zooplankton biomass, and fish
+      growth were plotted over time for a visual assessment of ecosystem
+      effects throughout the experiment. Statistical significance of
+      zooplankton biomass and fish growth results was determined by
+      pairwise ANOVA and Tukey multiple comparison of means testing.
+      Because only one integrated zooplankton sample was collected at
+      each site per week, statistical tests on zooplankton data was done
+      comparing sites during periods of export (n=9) with periods of no
+      export (i.e., “before/after”; n=13) over the entire season in a
+      single test. Because the primary question of this study is focused
+      on effects on in-river fish and ecosystem response as a result of
+      the management action, data from the canal site are displayed on
+      data visualizations but not included in statistical analyses to
+      avoid extraneous sources of variability for both fish and
+      zooplankton analyses.
+    </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Fish Food on Floodplain Farm Fields 2021</title>
+      <personnel>
+        <individualName>
+          <givenName>Jacob</givenName>
+          <surName>Montgomery</surName>
+        </individualName>
+        <organizationName>California Trout</organizationName>
+        <electronicMailAddress>jacob@caltrout.org</electronicMailAddress>
+        <role>Project Lead</role>
+      </personnel>
+      <award>
+        <funderName>United States Bureau of Reclamation</funderName>
+        <funderIdentifier>https://www.wikidata.org/wiki/Q1010548</funderIdentifier>
+        <awardNumber>R19AP00036</awardNumber>
+        <title>Food for Fish: Reintegrating floodplain food web productivity into the River Aquatic Ecosystem to Benefit Juvenile Salmon</title>
+      </award>
+      <award>
+        <funderName>United States Bureau of Reclamation</funderName>
+        <funderIdentifier>https://www.wikidata.org/wiki/Q1010548</funderIdentifier>
+        <awardNumber>R20AP00312</awardNumber>
+        <title>Food for Fish phase 2: Reintegrating floodplain food web productivity into the River Aquatic Ecosystem to Benefit Juvenile Salmon</title>
+      </award>
+    </project>
+    <dataTable>
+      <entityName>F4F2021_FishGrowth2022.csv</entityName>
+      <entityDescription>Fish Growth Data</entityDescription>
+      <physical>
+        <objectName>F4F2021_FishGrowth2022.csv</objectName>
+        <size unit="bytes">40467</size>
+        <authentication method="MD5">63856d398ec2fdbf02f6029a25caa2df</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">44599</minimum>
+                  <maximum exclusive="false">44648</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOCATION</attributeName>
+          <attributeDefinition>sample site code identifier</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample site code identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PIT</attributeName>
+          <attributeDefinition>Passive integrated transmitter identifier</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Passive integrated transmitter identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Length.mm</attributeName>
+          <attributeDefinition>Length of fish measured in millimeters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">49</minimum>
+                  <maximum exclusive="false">93</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Weight.g</attributeName>
+          <attributeDefinition>weight of fish measured in grams</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.74</minimum>
+                  <maximum exclusive="false">8.01</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>944</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>F4F2021_ContinuousTempDO2022.csv</entityName>
+      <entityDescription>Continuous Temperature Data</entityDescription>
+      <physical>
+        <objectName>F4F2021_ContinuousTempDO2022.csv</objectName>
+        <size unit="bytes">1495945</size>
+        <authentication method="MD5">b40662b3dc12b9939da70fee2e705c1e</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>LOCATION</attributeName>
+          <attributeDefinition>sample site code identifier</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample site code identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DateTime</attributeName>
+          <attributeDefinition>time sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy hh:mm</formatString>
+              <dateTimePrecision>mm/dd/yyyy hh:mm</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">44599.3583</minimum>
+                  <maximum exclusive="false">44656.3632</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DO.mgL</attributeName>
+          <attributeDefinition>dissolved oxygen of water at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temp.F</attributeName>
+          <attributeDefinition>water temperature at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>fahrenheit</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">30</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>38215</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv</entityName>
+      <entityDescription>Zooplankton Density and Water Quality Data</entityDescription>
+      <physical>
+        <objectName>F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv</objectName>
+        <size unit="bytes">372835</size>
+        <authentication method="MD5">dd8dae23ebbd28e0bd0d27b02ba67718</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>unique site_date_time row identifier</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique site_date_time row identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Pseudodiptomus.Adult</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Psedodiptomus.copepidite</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Acanthocyclops.adult</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Acanthocyclops.copepididte</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cyclopoid.sp.</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cyclopoid.nauplii</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Calanoid.naulpii</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Harpaticoid</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Daphnia.pulex</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Daphnia.laevis</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Daphnia.magna</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Daphnia.mendotea</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ceriodaphnia.sp.</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Simocephalus.sp.</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Bosmina.sp.</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sididae</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Chydorus.sphaericus</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Eurycercus</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Alona</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Chydoridae</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Diaphanosoma</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Scapholeberis</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cladocera.embryo</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Eucypris</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Illyocypris</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cypridopsis</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Gammarus</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Rotifer</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Polychaete</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Acari</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Chironomid.larvae</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Oliogochaete</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Gastropod</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Tardigrade</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Nematode</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Hyallela</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Hydra</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Terrestrial.insect</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Collembola</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Baetidae</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Diptera</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Hydroptilidae</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Coleoptera</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ephemerellidae</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Odonata</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Bivalve</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Trichoptera</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Corixidae</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Fish.larvae</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ilyocryptus</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Streblocerus</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Moina</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">43417</minimum>
+                  <maximum exclusive="false">43592</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOCATION</attributeName>
+          <attributeDefinition>sample site code identifier</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample site code identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TIME</attributeName>
+          <attributeDefinition>time sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+              <dateTimePrecision>hh:mm</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0.9993</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TEMP..C.</attributeName>
+          <attributeDefinition>water temperature at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">30</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EC...s.cm.</attributeName>
+          <attributeDefinition>electrical conductivity of water at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microseimens per centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SPC...s.cm.</attributeName>
+          <attributeDefinition>specific conductivity of water at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microseimens per centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TDS..mg.L.</attributeName>
+          <attributeDefinition>total dissolved solids in water at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SALINITY..PSU.</attributeName>
+          <attributeDefinition>salinity of water at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>parts per thousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DO....sat.</attributeName>
+          <attributeDefinition>dissolved oxygen of water at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent saturation</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">150</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DO..mg.L.</attributeName>
+          <attributeDefinition>dissolved oxygen of water at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pH</attributeName>
+          <attributeDefinition>pH of water at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>pH</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">14</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TURBIDITY..NTU.</attributeName>
+          <attributeDefinition>turbidity of water at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Nephelometric Turbidity unit</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CHL...g.L.</attributeName>
+          <attributeDefinition>chlorophyll-a fluorescence of water at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>BGA...g.L.</attributeName>
+          <attributeDefinition>blue-green algae fluorescence of water at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Start.Rotation</attributeName>
+          <attributeDefinition>flowmeter rotor start number</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>rotation start</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>End.Rotation</attributeName>
+          <attributeDefinition>flowmeter rotor end number</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>rotation end</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ZOOP.SCORE..1.10.</attributeName>
+          <attributeDefinition>subjective rank score of zooplankton density at time of sample collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>rank score</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Notes</attributeName>
+          <attributeDefinition>sample collection and/or sample processing nots</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample collection and/or sample processing nots</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>VolumeSampled</attributeName>
+          <attributeDefinition>calculated water volume sampled during zooplankton collection</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>913</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>F4F2021_LocationLookupTable_2022.csv</entityName>
+      <entityDescription>Location Lookup Table for Sample Site</entityDescription>
+      <physical>
+        <objectName>F4F2021_LocationLookupTable_2022.csv</objectName>
+        <size unit="bytes">6092</size>
+        <authentication method="MD5">712965cf01c60b9ae686214ee79bcff2</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Location</attributeName>
+          <attributeDefinition>sample site code identifier</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample site code identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Lat, lon (UTM)</attributeName>
+          <attributeDefinition>Latitude and Longitude at sample site</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Latitude and Longitude at sample site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Habitat Type</attributeName>
+          <attributeDefinition>sample site habitat type, borad</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample site habitat type, borad</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Purpose</attributeName>
+          <attributeDefinition>monitoring or experimental</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>monitoring or experimental</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Habitat Type 2</attributeName>
+          <attributeDefinition>sample site habitat type, refined</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample site habitat type, refined</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>79</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="microseimens per centimeter" multiplierToSI="siemensPerCentimeter" name="microseimens per centimeter" unitType="density">
+          <description>Number of microsiemens per centimeter, conductivity measurement</description>
+        </unit>
+        <unit id="parts per thousand" name="parts per thousand" unitType="density">
+          <description>Salinity measure of parts per thousand</description>
+        </unit>
+        <unit id="percent saturation" name="percent saturation" unitType="dimensionless">
+          <description>Percent saturation of disolved oxygen</description>
+        </unit>
+        <unit id="pH" name="pH" unitType="dimensionless">
+          <description>Measure of potential hydrogen</description>
+        </unit>
+        <unit id="Nephelometric Turbidity unit" name="Nephelometric Turbidity unit" unitType="dimensionless">
+          <description>Turbidity Units</description>
+        </unit>
+        <unit id="rotation start" name="rotation start" unitType="dimensionless">
+          <description>The start number of the flowmeter rotor</description>
+        </unit>
+        <unit id="rotation end" name="rotation end" unitType="dimensionless">
+          <description>The end number of the flowmeter rotor</description>
+        </unit>
+        <unit id="rank score" name="rank score" unitType="dimensionless">
+          <description>Subjective rank score of zooplankton density</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

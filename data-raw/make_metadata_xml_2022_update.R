@@ -10,19 +10,17 @@ datatable_metadata <- tibble(filepath = c("data/2022_update/F4F2021_FishGrowth20
                              attribute_info = c("data-raw/metadata/2022_update/F4F2021_FishGrowth_AttributesTable2022.xlsx",
                                                "data-raw/metadata/2022_update/F4F2021_ContinuousTempDO_AttributesTable2022.xlsx",
                                                "data-raw/metadata/2022_update/F4F2021_metadata2022.xlsx",
-                                                "data-raw/metadata//2022_update/Location_attributes_2022.xlsx"),
+                                                "data-raw/metadata/2022_update/Location_attributes_2022.xlsx"),
                              datatable_description = c("Fish Growth Data",
                                                       "Continuous Temperature Data",
                                                      "Zooplankton Density and Water Quality Data",
                                                       "Location Lookup Table for Sample Site"),
-
-                             datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/",
-                                                    c("FISHBIO_RBT_weir_passages_2005_2022.csv",
-                                                      "FISHBIO_PIT_tag_detections_2021_2022.csv",
-                                                      "FISHBIO_trapping_2021.csv",
-                                                      "FISHBIO_Weir_operations_log_2021_2022.csv",
-                                                      "FISHBIO_Pit_operations_log_2021_2022.csv"
-                                                    )))
+                             datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/",
+                                                    c("F4F2021_FishGrowth2022.csv",
+                                                      "F4F2021_ContinuousTempDO2022.csv",
+                                                      "F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv",
+                                                      "F4F2021_LocationLookupTable_2022.csv"
+                                                      )))
 
 
 # TODO Check warnings when reading in excel sheets
@@ -34,10 +32,13 @@ names(metadata) <- sheets
 abstract_docx <- "data-raw/metadata/2022_update/F4F2019_abstract_updatedthrough2022.docx"
 methods_docx <- "data-raw/metadata/2022_update/F4F2019_methods_updatedthrough2022.docx"
 
-# edi_number <- reserve_edi_id(user_id = Sys.getenv("EDI_user"), password = Sys.getenv("EDI_password"))
+# edi_number <- reserve_edi_id(user_id = Sys.getenv("user_id"), password = Sys.getenv("password"), environment = "staging")
 
+# FOR STAGING:
+edi_number <- 'edi.1087.1'
 
-edi_number = "edi.996.3"
+# FOR PRODUCTION:
+# edi_number = "edi.996.3"
 
 dataset <- list() %>%
   add_pub_date() %>%
@@ -75,9 +76,10 @@ eml <- list(packageId = edi_number,
             additionalMetadata = list(metadata = list(
               unitList = unitList)))
 
-EML::write_eml(eml, "edi.996.3.xml")
-EML::eml_validate("edi.996.3.xml")
+EML::write_eml(eml, paste0(edi_number, ".xml"))
+EML::eml_validate(paste0(edi_number, ".xml"))
 
-evaluate_edi_package(eml_file_path = "edi.996.3.xml", Sys.getenv("user_id"), Sys.getenv("password"), environment = "staging")
+evaluate_edi_package(eml_file_path = paste0(edi_number, ".xml"), Sys.getenv("user_id"), Sys.getenv("password"), environment = "staging")
 
-upload_edi_package(eml_file_path = "edi.996.3.xml", Sys.getenv("user_id"), Sys.getenv("password"), environment = "staging")
+upload_edi_package(eml_file_path = paste0(edi_number, ".xml"), Sys.getenv("user_id"), Sys.getenv("password"),
+                   environment = "staging")

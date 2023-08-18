@@ -3716,12 +3716,12 @@
         </attribute>
         <attribute>
           <attributeName>Habitat Type</attributeName>
-          <attributeDefinition>sample site habitat type, borad</attributeDefinition>
+          <attributeDefinition>sample site habitat type, broad</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>sample site habitat type, borad</definition>
+                  <definition>sample site habitat type, broad</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>

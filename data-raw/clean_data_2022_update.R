@@ -18,8 +18,17 @@ lookup <- readxl::read_excel('data-raw/metadata/2022_update/F4F2021_LocationLook
 lookup_2022_raw <- readxl::read_excel('data-raw/metadata/2022_update/F4F2021_LocationLookupTable_2022.xlsx')
 head(lookup_2022_raw)
 lookup_2022 <- lookup_2022_raw |>
-  select(-`...3`) |> glimpse()
+  rename(`Lat Long UTM` = `Lat, lon (UTM)`) |>
+  glimpse()
 unique(lookup_2022$Location)
+
+
+location_cols <- colnames(lookup_2022)
+metadata_cols <- readxl::read_excel("data-raw/metadata/2022_update/Location_attributes_2022.xlsx", sheet = "attribute") |>
+  pull(attribute_name)
+
+setdiff(location_cols, metadata_cols)
+setdiff(metadata_cols, location_cols)
 
 write_csv(lookup_2022, "data/2022_update/F4F2021_LocationLookupTable_2022.csv")
 
@@ -72,6 +81,14 @@ ggplot(temp_do) +
 
 # remove anomalies and cut filter data < 3/29
 
+cols <- colnames(temp_do)
+metadata_cols <- readxl::read_excel("data-raw/metadata/2022_update/F4F2021_ContinuousTempDO_AttributesTable2022.xlsx", sheet = "attribute") |>
+  pull(attribute_name)
+
+setdiff(cols, metadata_cols)
+setdiff(metadata_cols, cols)
+
+
 write_csv(temp_do, "data/2022_update/F4F2021_ContinuousTempDO2022.csv")
 
 
@@ -87,6 +104,13 @@ ggplot(fish_growth, aes(x = Date, y = Weight.g)) +
   facet_wrap(~LOCATION)
 
 unique(fish_growth$PIT)
+
+cols <- colnames(fish_growth)
+metadata_cols <- readxl::read_excel("data-raw/metadata/2022_update/F4F2021_FishGrowth_AttributesTable2022.xlsx", sheet = "attribute") |>
+  pull(attribute_name)
+
+setdiff(cols, metadata_cols)
+setdiff(metadata_cols, cols)
 
 write_csv(fish_growth, "data/2022_update/F4F2021_FishGrowth2022.csv")
 

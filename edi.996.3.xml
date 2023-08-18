@@ -21,7 +21,7 @@
       <organizationName>California Trout</organizationName>
       <electronicMailAddress>jacob@caltrout.org</electronicMailAddress>
     </creator>
-    <pubDate>2023-08-17</pubDate>
+    <pubDate>2023-08-18</pubDate>
     <abstract>
       <section>
         <title>2019 Water Year (October 1, 2018 through September 30,
@@ -2182,7 +2182,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F2021_FishGrowth2022.csv</url>
           </online>
         </distribution>
       </physical>
@@ -2287,7 +2287,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F2021_ContinuousTempDO2022.csv</url>
           </online>
         </distribution>
       </physical>
@@ -2379,7 +2379,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv</url>
           </online>
         </distribution>
       </physical>
@@ -3683,7 +3683,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F2021_LocationLookupTable_2022.csv</url>
           </online>
         </distribution>
       </physical>

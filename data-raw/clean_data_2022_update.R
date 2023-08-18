@@ -33,7 +33,7 @@ setdiff(metadata_cols, location_cols)
 
 
 # Compare to 2021 locations lookup
-locations_2021 <- read_csv('data/F4F2019_LocationLookupTable.csv')
+locations_2021 <- read_csv('data/F4F2019_2021_LocationLookupTable.csv')
 unique(locations_2021$Location)
 unique(lookup_2022$Location)
 setdiff(unique(locations_2021$Location), unique(lookup_2022$Location))
@@ -66,6 +66,15 @@ metadata_cols <- readxl::read_excel("data-raw/metadata/2022_update/F4F2021_metad
 setdiff(zoop_cols, metadata_cols)
 setdiff(metadata_cols, zoop_cols)
 
+# compare to 2019, 2021 files
+zoops_21 <- read_csv('data/F4F_Complete2019_2021ZoopsPerM3andWaterQuality.csv')
+min(zoops_21$DATE, na.rm = TRUE)
+max(zoops_21$DATE, na.rm = TRUE)
+
+# bind rows with 2019, 2021 files
+all_zoops <- bind_rows(zoops_wq, zoops_21) |> arrange(DATE)
+unique(lubridate::year(all_zoops$DATE))
+
 write_csv(zoops_wq, 'data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv')
 
 
@@ -96,8 +105,15 @@ metadata_cols <- readxl::read_excel("data-raw/metadata/2022_update/F4F2021_Conti
 setdiff(cols, metadata_cols)
 setdiff(metadata_cols, cols)
 
+temp_do_2019_2021 <- read_csv('data/F4F2019_2021_ContinuousTempDO.csv')
 
-write_csv(temp_do, "data/2022_update/F4F2021_ContinuousTempDO2022.csv")
+all_temp_do <- bind_rows(temp_do_2019_2021, temp_do) |> arrange(DateTime) |> glimpse()
+
+ggplot(all_temp_do) +
+  geom_line(aes(x = DateTime, y = DO.mgL)) +
+  facet_wrap(~LOCATION)
+
+write_csv(all_temp_do, "data/2022_update/F4F2021_ContinuousTempDO2022.csv")
 
 
 # F4F2021_FishGrowth2022 --------------------------------------------------
@@ -120,7 +136,18 @@ metadata_cols <- readxl::read_excel("data-raw/metadata/2022_update/F4F2021_FishG
 setdiff(cols, metadata_cols)
 setdiff(metadata_cols, cols)
 
-write_csv(fish_growth, "data/2022_update/F4F2021_FishGrowth2022.csv")
+fish_growth_2019_2021 <- read_csv('data/F4F2019_2021_FishGrowth.csv') |> glimpse()
+all_fish_growth <- bind_rows(fish_growth, fish_growth_2019_2021) |> arrange(Date) |>
+  mutate(Date = lubridate::as_date(Date),
+         Length.mm = as.numeric(Length.mm),
+         Weight.g = as.numeric(Weight.g)) |>
+  glimpse()
+
+ggplot(all_fish_growth, aes(x = Date, y = Weight.g)) +
+  geom_point() +
+  facet_wrap(~LOCATION)
+
+write_csv(all_fish_growth, "data/2022_update/F4F2021_FishGrowth2022.csv")
 
 
 

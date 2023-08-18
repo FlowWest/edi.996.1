@@ -14,7 +14,15 @@ datatable_metadata <- tibble(filepath = c("data/2022_update/F4F2021_FishGrowth20
                              datatable_description = c("Fish Growth Data",
                                                       "Continuous Temperature Data",
                                                      "Zooplankton Density and Water Quality Data",
-                                                      "Location Lookup Table for Sample Site"))
+                                                      "Location Lookup Table for Sample Site"),
+
+                             datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/",
+                                                    c("FISHBIO_RBT_weir_passages_2005_2022.csv",
+                                                      "FISHBIO_PIT_tag_detections_2021_2022.csv",
+                                                      "FISHBIO_trapping_2021.csv",
+                                                      "FISHBIO_Weir_operations_log_2021_2022.csv",
+                                                      "FISHBIO_Pit_operations_log_2021_2022.csv"
+                                                    )))
 
 
 # TODO Check warnings when reading in excel sheets
@@ -69,3 +77,7 @@ eml <- list(packageId = edi_number,
 
 EML::write_eml(eml, "edi.996.3.xml")
 EML::eml_validate("edi.996.3.xml")
+
+evaluate_edi_package(eml_file_path = "edi.996.3.xml", Sys.getenv("user_id"), Sys.getenv("password"), environment = "staging")
+
+upload_edi_package(eml_file_path = "edi.996.3.xml", Sys.getenv("user_id"), Sys.getenv("password"), environment = "staging")

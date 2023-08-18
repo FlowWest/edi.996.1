@@ -54,11 +54,11 @@ write_csv(zoops_wq, 'data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQual
 
 # F4F2021_ContinuousTempDO_AttributesTable2022 ----------------------------
 # F4F2021_ContinuousTempDO2022
-temp_do_attr <- readxl::read_excel('data-raw/metadata/2022_update/F4F2021_ContinuousTempDO_AttributesTable2022.xlsx')
 temp_do_raw <- read_csv('data-raw/metadata/2022_update/F4F2021_ContinuousTempDO2022.csv')
 
 temp_do <- temp_do_raw |>
-  mutate(DateTime = mdy_hm(DateTime)) |> glimpse()
+  mutate(DateTime = mdy_hm(DateTime)) |>
+  filter(DateTime <= '2022-03-29')
 
 # huge DO spike in April
 ggplot(temp_do) +
@@ -70,7 +70,7 @@ ggplot(temp_do) +
   geom_line(aes(x = DateTime, y = Temp.F)) +
   facet_wrap(~LOCATION)
 
-# TODO: ask Jacob about anomalies starting April 1
+# remove anomalies and cut filter data < 3/29
 
 write_csv(temp_do, "data/2022_update/F4F2021_ContinuousTempDO2022.csv")
 

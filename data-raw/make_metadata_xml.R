@@ -68,3 +68,8 @@ eml <- list(packageId = edi_number,
 
 EML::write_eml(eml, "edi.996.1.xml")
 EML::eml_validate("edi.996.1.xml")
+
+evaluate_edi_package(eml_file_path = "edi.996.3.xml", Sys.getenv("edi_user_id"),
+                     Sys.getenv("edi_password"), environment = "staging")
+
+upload_edi_package(eml_file_path = "edi.996.3.xml", Sys.getenv("user_id"), Sys.getenv("password"), environment = "staging")

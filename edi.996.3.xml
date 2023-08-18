@@ -21,7 +21,7 @@
       <organizationName>California Trout</organizationName>
       <electronicMailAddress>jacob@caltrout.org</electronicMailAddress>
     </creator>
-    <pubDate>2023-08-15</pubDate>
+    <pubDate>2023-08-17</pubDate>
     <abstract>
       <section>
         <title>2019 Water Year (October 1, 2018 through September 30,
@@ -2273,8 +2273,8 @@
       <entityDescription>Continuous Temperature Data</entityDescription>
       <physical>
         <objectName>F4F2021_ContinuousTempDO2022.csv</objectName>
-        <size unit="bytes">1495945</size>
-        <authentication method="MD5">b40662b3dc12b9939da70fee2e705c1e</authentication>
+        <size unit="bytes">1312595</size>
+        <authentication method="MD5">c872858b0716a61bccc6af06c2fc9722</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -2358,7 +2358,7 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <numberOfRecords>38215</numberOfRecords>
+      <numberOfRecords>33466</numberOfRecords>
     </dataTable>
     <dataTable>
       <entityName>F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv</entityName>

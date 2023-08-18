@@ -19,6 +19,7 @@ lookup_2022_raw <- readxl::read_excel('data-raw/metadata/2022_update/F4F2021_Loc
 head(lookup_2022_raw)
 lookup_2022 <- lookup_2022_raw |>
   rename(`Lat Long UTM` = `Lat, lon (UTM)`) |>
+  mutate(`Lat Long UTM` = gsub(",", " ", `Lat Long UTM`)) |>
   glimpse()
 unique(lookup_2022$Location)
 

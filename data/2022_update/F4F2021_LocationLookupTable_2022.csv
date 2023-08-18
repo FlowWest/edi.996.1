@@ -1,80 +1,80 @@
 Location,Lat Long UTM,Habitat Type,Purpose,Habitat Type 2
-ACC,"38.78183, -121.60432",Agricultural Tributary,Monitoring,Perennial instream
-ACCSAC1,"38.7817, -121.60776",Unsibsidized River,Monitoring,Perennial instream
-ACCSAC2,"38.77818, -121.60199",Subsidized River,Monitoring,Perennial instream
-ACCSAC3,"38.77412, -121.5984",Subsidized River,Monitoring,Perennial instream
-ACCSAC4,"38.76663, -121.59364",Subsidized River,Monitoring,Perennial instream
-BLSAC,"38.954942, -121.840761",Unsibsidized River,Monitoring,Perennial instream
-BSOG1,"39.196691, -121.943795",Unsibsidized River,Monitoring,Perennial instream
-BSOG2,"39.192850, -121.935189",Subsidized River,Monitoring,Perennial instream
-CBD1,"39.136512, -122.023388",Agricultural Tributary,Monitoring,agricultural canal
-CBD2,"39.114491, -122.018413",Agricultural Tributary,Monitoring,agricultural canal
-CBD4,"38.925311, -121.914951",Agricultural Tributary,Monitoring,agricultural canal
-CBD5,"38.800808, -121.748431",Agricultural Tributary,Monitoring,agricultural canal
-CGC01,"39.074840, -121.771981",Managed wetland,Monitoring,Managed wetland
-CPORICE,"38.407148, -121.618968",Rice Field,Monitoring,floodplain
-CPOTD1,"38.413285, -121.615724",Agricultural Tributary,Monitoring,Perennial instream
-CPOTD2,"38.400808, -121.621458",Agricultural Tributary,Monitoring,Perennial instream
-ELDCAN,"38.856240, -121.786175",Agricultural Tributary,Monitoring,agricultural canal
-ELDSAC,"38.856665, -121.785262",Unsibsidized River,Monitoring,Perennial instream
-KLOG,"38.8014, -121.72348",Agricultural Tributary,Monitoring,Perennial instream
-KLOGB,"38.799399, -121.725280",Agricultural Tributary,Monitoring,agricultural canal
-KLSAC,"38.8024, -121.71673",Subsidized River,Monitoring,Perennial instream
-KNG1,"38.7041, -121.66971",Rice Field,Experimental,floodplain
-KNG2,"38.7034, -121.6697",Rice Field,Experimental,floodplain
-KNG3,"38.7027, -121.66959",Rice Field,Experimental,floodplain
-KNG4,"38.70202, -121.66954",Rice Field,Experimental,floodplain
-KNG5,"38.70131, -121.66945",Rice Field,Experimental,floodplain
-KNG6,"38.70057, -121.66936",Rice Field,Experimental,floodplain
-KNG7,"38.69989, -121.6693",Rice Field,Experimental,floodplain
-KNG8,"38.6992, -121.66923",Rice Field,Experimental,floodplain
-KNG9,"38.6985, -121.66914",Rice Field,Experimental,floodplain
-KNGCAN,"38.7016, -121.67063",Agricultural Tributary,Experimental,agricultural canal
-L5DEEP,"38.395882, -121.639200",Managed wetland,Monitoring,floodplain
-MNT106,"38.952998, -121.615670",Rice Field,Monitoring,Rice Field
-MNT3A,"38.9382, -121.60714",Rice Field,Monitoring,Rice Field
-MNTEB1,"38.940203, -121.644060",Unsibsidized River,Monitoring,Perennial instream
-MNTCAN,"38.933055, -121.634443",Agricultural Tributary,Monitoring,agricultural canal
-MNTEB1,"38.941708, -121.645771",Agricultural Tributary,Monitoring,Perennial instream
-MNTEB2,"38.931134, -121.634302",Agricultural Tributary,Monitoring,Perennial instream
-MNTFEA,"38.95575, -121.58389",Unsibsidized River,Monitoring,Perennial instream
-MNTNEW,"38.94532, -121.63416",Rice Field,Monitoring,Rice Field
-MNTNEWCAN,"38.94108, -121.63439",Agricultural Tributary,Monitoring,agricultural canal
-MNTNEWCAN2,"38.948210, -121.634486",Agricultural Tributary,Monitoring,agricultural canal
-MNTWS5,"38.901592, -121.635724",Managed Wetland,Monitoring,floodplain
-MNTWS7,"38.896635, -121.635285",Managed Wetland,Monitoring,floodplain
-RG92,"38.83211, -121.74011",Rice Field,Monitoring,Rice Field
-RGSAC,"38.840656, -121.728323",Unsibsidized River,Monitoring,Perennial instream
-ROOS1,"38.825252, -121.809580",Managed Wetland,Monitoring,floodplain
-ROOS2,"38.826280, -121.812788",Managed Wetland,Monitoring,floodplain
-ROOS3,"38.834632, -121.848092",Managed Wetland,Monitoring,floodplain
-RRCAN,"38.862152, -121.793035",Agricultural Tributary,Experimental,agricultural canal
-RRSAC1,"38.866534, -121.795670",Unsibsidized River,Experimental,Perennial instream
-RRSAC2,"38.862775, -121.792543",Subsidized River,Experimental,Perennial instream
-RRSAC2A,"38.862810, -121.792717",Subsidized River,Experimental,Perennial instream
-RRSAC2B,"38.863128, -121.793210",Subsidized River,Experimental,Perennial instream
-RRSAC2C,"38.862833, -121.792459",Subsidized River,Experimental,Perennial instream
-RRSAC3,"38.863506, -121.786417",Subsidized River,Experimental,Perennial instream
-RRSAC4,"38.858198, -121.784856",Subsidized River,Experimental,Perennial instream
-RRSAC5,"38.861379, -121.769891",Subsidized River,Experimental,Perennial instream
-RRSAC6,"38.864657, -121.757949",Subsidized River,Experimental,Perennial instream
-RRSAC7,"38.871208, -121.749278",Subsidized River,Experimental,Perennial instream
-RRSAC8,"38.852505, -121.725286",Subsidized River,Experimental,Perennial instream
-SFT18,"39.143928, -121.974314",Rice Field,Monitoring,Rice Field
-SFTSAC,"39.132719, -121.938321",Unsibsidized River,Monitoring,Perennial instream
-SMCAN1,"38.785963, -121.659574",Agricultural Tributary,Monitoring,agricultural canal
-SMCAN2,"38.806622, -121.672790",Agricultural Tributary,Monitoring,agricultural canal
-SMCAN3,"38.861614, -121.701990",Agricultural Tributary,Monitoring,agricultural canal
-SMCAN4,"38.909147, -121.728673",Agricultural Tributary,Monitoring,agricultural canal
-SMSAC,"38.77108, -121.68924",Unsibsidized River,Monitoring,Perennial instream
-SMSSL,"38.78444, -121.65314",Subsidized River,Monitoring,Perennial instream
-SMSUT,"38.785190, -121.654258",Unsibsidized River,Monitoring,Perennial instream
-T6B2,"38.852819, -121.858937",rice field,Monitoring,Rice Field
-T6B67,"38.837889, -121.795858",rice field,Monitoring,Rice Field
-TEWET3,"38.397479, -121.623670",managed wetland,monitoring,floodplain
-TLSAC,"38.883875, -121.817148",Unsibsidized River,monitoring,Perennial instream
-TPSAC,"38.80177, -121.72133",Subsidized River,monitoring,Perennial instream
-WLKSAC,"39.003816, -121.807573",Unsibsidized River,monitoring,Perennial instream
-WSWB1,"38.905660, -121.638171",Agricultural Tributary,Monitoring,Perennial instream
-WSWB2,"38.891254, -121.635738",Agricultural Tributary,Monitoring,Perennial instream
-YBWET,"38.379681, -121.633541",Managed wetland,monitoring,floodplain
+ACC,38.78183  -121.60432,Agricultural Tributary,Monitoring,Perennial instream
+ACCSAC1,38.7817  -121.60776,Unsibsidized River,Monitoring,Perennial instream
+ACCSAC2,38.77818  -121.60199,Subsidized River,Monitoring,Perennial instream
+ACCSAC3,38.77412  -121.5984,Subsidized River,Monitoring,Perennial instream
+ACCSAC4,38.76663  -121.59364,Subsidized River,Monitoring,Perennial instream
+BLSAC,38.954942  -121.840761,Unsibsidized River,Monitoring,Perennial instream
+BSOG1,39.196691  -121.943795,Unsibsidized River,Monitoring,Perennial instream
+BSOG2,39.192850  -121.935189,Subsidized River,Monitoring,Perennial instream
+CBD1,39.136512  -122.023388,Agricultural Tributary,Monitoring,agricultural canal
+CBD2,39.114491  -122.018413,Agricultural Tributary,Monitoring,agricultural canal
+CBD4,38.925311  -121.914951,Agricultural Tributary,Monitoring,agricultural canal
+CBD5,38.800808  -121.748431,Agricultural Tributary,Monitoring,agricultural canal
+CGC01,39.074840  -121.771981,Managed wetland,Monitoring,Managed wetland
+CPORICE,38.407148  -121.618968,Rice Field,Monitoring,floodplain
+CPOTD1,38.413285  -121.615724,Agricultural Tributary,Monitoring,Perennial instream
+CPOTD2,38.400808  -121.621458,Agricultural Tributary,Monitoring,Perennial instream
+ELDCAN,38.856240  -121.786175,Agricultural Tributary,Monitoring,agricultural canal
+ELDSAC,38.856665  -121.785262,Unsibsidized River,Monitoring,Perennial instream
+KLOG,38.8014  -121.72348,Agricultural Tributary,Monitoring,Perennial instream
+KLOGB,38.799399  -121.725280,Agricultural Tributary,Monitoring,agricultural canal
+KLSAC,38.8024  -121.71673,Subsidized River,Monitoring,Perennial instream
+KNG1,38.7041  -121.66971,Rice Field,Experimental,floodplain
+KNG2,38.7034  -121.6697,Rice Field,Experimental,floodplain
+KNG3,38.7027  -121.66959,Rice Field,Experimental,floodplain
+KNG4,38.70202  -121.66954,Rice Field,Experimental,floodplain
+KNG5,38.70131  -121.66945,Rice Field,Experimental,floodplain
+KNG6,38.70057  -121.66936,Rice Field,Experimental,floodplain
+KNG7,38.69989  -121.6693,Rice Field,Experimental,floodplain
+KNG8,38.6992  -121.66923,Rice Field,Experimental,floodplain
+KNG9,38.6985  -121.66914,Rice Field,Experimental,floodplain
+KNGCAN,38.7016  -121.67063,Agricultural Tributary,Experimental,agricultural canal
+L5DEEP,38.395882  -121.639200,Managed wetland,Monitoring,floodplain
+MNT106,38.952998  -121.615670,Rice Field,Monitoring,Rice Field
+MNT3A,38.9382  -121.60714,Rice Field,Monitoring,Rice Field
+MNTEB1,38.940203  -121.644060,Unsibsidized River,Monitoring,Perennial instream
+MNTCAN,38.933055  -121.634443,Agricultural Tributary,Monitoring,agricultural canal
+MNTEB1,38.941708  -121.645771,Agricultural Tributary,Monitoring,Perennial instream
+MNTEB2,38.931134  -121.634302,Agricultural Tributary,Monitoring,Perennial instream
+MNTFEA,38.95575  -121.58389,Unsibsidized River,Monitoring,Perennial instream
+MNTNEW,38.94532  -121.63416,Rice Field,Monitoring,Rice Field
+MNTNEWCAN,38.94108  -121.63439,Agricultural Tributary,Monitoring,agricultural canal
+MNTNEWCAN2,38.948210  -121.634486,Agricultural Tributary,Monitoring,agricultural canal
+MNTWS5,38.901592  -121.635724,Managed Wetland,Monitoring,floodplain
+MNTWS7,38.896635  -121.635285,Managed Wetland,Monitoring,floodplain
+RG92,38.83211  -121.74011,Rice Field,Monitoring,Rice Field
+RGSAC,38.840656  -121.728323,Unsibsidized River,Monitoring,Perennial instream
+ROOS1,38.825252  -121.809580,Managed Wetland,Monitoring,floodplain
+ROOS2,38.826280  -121.812788,Managed Wetland,Monitoring,floodplain
+ROOS3,38.834632  -121.848092,Managed Wetland,Monitoring,floodplain
+RRCAN,38.862152  -121.793035,Agricultural Tributary,Experimental,agricultural canal
+RRSAC1,38.866534  -121.795670,Unsibsidized River,Experimental,Perennial instream
+RRSAC2,38.862775  -121.792543,Subsidized River,Experimental,Perennial instream
+RRSAC2A,38.862810  -121.792717,Subsidized River,Experimental,Perennial instream
+RRSAC2B,38.863128  -121.793210,Subsidized River,Experimental,Perennial instream
+RRSAC2C,38.862833  -121.792459,Subsidized River,Experimental,Perennial instream
+RRSAC3,38.863506  -121.786417,Subsidized River,Experimental,Perennial instream
+RRSAC4,38.858198  -121.784856,Subsidized River,Experimental,Perennial instream
+RRSAC5,38.861379  -121.769891,Subsidized River,Experimental,Perennial instream
+RRSAC6,38.864657  -121.757949,Subsidized River,Experimental,Perennial instream
+RRSAC7,38.871208  -121.749278,Subsidized River,Experimental,Perennial instream
+RRSAC8,38.852505  -121.725286,Subsidized River,Experimental,Perennial instream
+SFT18,39.143928  -121.974314,Rice Field,Monitoring,Rice Field
+SFTSAC,39.132719  -121.938321,Unsibsidized River,Monitoring,Perennial instream
+SMCAN1,38.785963  -121.659574,Agricultural Tributary,Monitoring,agricultural canal
+SMCAN2,38.806622  -121.672790,Agricultural Tributary,Monitoring,agricultural canal
+SMCAN3,38.861614  -121.701990,Agricultural Tributary,Monitoring,agricultural canal
+SMCAN4,38.909147  -121.728673,Agricultural Tributary,Monitoring,agricultural canal
+SMSAC,38.77108  -121.68924,Unsibsidized River,Monitoring,Perennial instream
+SMSSL,38.78444  -121.65314,Subsidized River,Monitoring,Perennial instream
+SMSUT,38.785190  -121.654258,Unsibsidized River,Monitoring,Perennial instream
+T6B2,38.852819  -121.858937,rice field,Monitoring,Rice Field
+T6B67,38.837889  -121.795858,rice field,Monitoring,Rice Field
+TEWET3,38.397479  -121.623670,managed wetland,monitoring,floodplain
+TLSAC,38.883875  -121.817148,Unsibsidized River,monitoring,Perennial instream
+TPSAC,38.80177  -121.72133,Subsidized River,monitoring,Perennial instream
+WLKSAC,39.003816  -121.807573,Unsibsidized River,monitoring,Perennial instream
+WSWB1,38.905660  -121.638171,Agricultural Tributary,Monitoring,Perennial instream
+WSWB2,38.891254  -121.635738,Agricultural Tributary,Monitoring,Perennial instream
+YBWET,38.379681  -121.633541,Managed wetland,monitoring,floodplain

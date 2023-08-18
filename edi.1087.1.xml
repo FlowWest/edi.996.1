@@ -3669,8 +3669,8 @@
       <entityDescription>Location Lookup Table for Sample Site</entityDescription>
       <physical>
         <objectName>F4F2021_LocationLookupTable_2022.csv</objectName>
-        <size unit="bytes">6088</size>
-        <authentication method="MD5">61c51eecc0b4160559db216dc9b97724</authentication>
+        <size unit="bytes">5930</size>
+        <authentication method="MD5">1951666f975d0985ee384ceb29cf6073</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>

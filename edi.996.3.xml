@@ -3669,8 +3669,8 @@
       <entityDescription>Location Lookup Table for Sample Site</entityDescription>
       <physical>
         <objectName>F4F2021_LocationLookupTable_2022.csv</objectName>
-        <size unit="bytes">6092</size>
-        <authentication method="MD5">712965cf01c60b9ae686214ee79bcff2</authentication>
+        <size unit="bytes">5930</size>
+        <authentication method="MD5">1951666f975d0985ee384ceb29cf6073</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -3702,7 +3702,7 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>Lat, lon (UTM)</attributeName>
+          <attributeName>Lat Long UTM</attributeName>
           <attributeDefinition>Latitude and Longitude at sample site</attributeDefinition>
           <measurementScale>
             <nominal>
@@ -3716,12 +3716,12 @@
         </attribute>
         <attribute>
           <attributeName>Habitat Type</attributeName>
-          <attributeDefinition>sample site habitat type, borad</attributeDefinition>
+          <attributeDefinition>sample site habitat type, broad</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>sample site habitat type, borad</definition>
+                  <definition>sample site habitat type, broad</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>

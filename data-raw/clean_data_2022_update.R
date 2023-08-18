@@ -7,7 +7,7 @@ library(lubridate)
 update_2022 <- list.files('data-raw/metadata/2022_update/')
 update_2021 <- list.files('data-raw/metadata/2021_update/')
 
-file_comparison <- data.frame(file_2021 = c(update_2021, NA),
+file_comparison <- data.frame(file_2021 = c(update_2021, NA, NA, NA),
            file_2022 = update_2022)
 
 # lookup tables -----------------------------------------------------------
@@ -30,6 +30,13 @@ metadata_cols <- readxl::read_excel("data-raw/metadata/2022_update/Location_attr
 
 setdiff(location_cols, metadata_cols)
 setdiff(metadata_cols, location_cols)
+
+
+# Compare to 2021 locations lookup
+locations_2021 <- read_csv('data/F4F2019_LocationLookupTable.csv')
+unique(locations_2021$Location)
+unique(lookup_2022$Location)
+setdiff(unique(locations_2021$Location), unique(lookup_2022$Location))
 
 write_csv(lookup_2022, "data/2022_update/F4F2021_LocationLookupTable_2022.csv")
 

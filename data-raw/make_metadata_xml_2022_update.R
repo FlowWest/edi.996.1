@@ -35,10 +35,10 @@ methods_docx <- "data-raw/metadata/2022_update/F4F2019_methods_updatedthrough202
 # edi_number <- reserve_edi_id(user_id = Sys.getenv("user_id"), password = Sys.getenv("password"), environment = "staging")
 
 # FOR STAGING:
-# edi_number <- 'edi.1087.1'
+edi_number <- 'edi.1087.1'
 
 # FOR PRODUCTION:
-edi_number = "edi.996.3"
+# edi_number = "edi.996.3"
 
 dataset <- list() %>%
   add_pub_date() %>%

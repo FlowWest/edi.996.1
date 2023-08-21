@@ -52,19 +52,12 @@ zoops_wq <- zoops_wq_raw |>
          Hyallela = Hyalella) |>
   glimpse()
 
+
 # TODO: BGA has negative values. what is BGA? blue-green algae fluorescence
 # of water at time of sample collection
 
 ggplot(zoops_wq) +
   geom_point(aes(x = DATE, y = BGA...g.L.))
-
-# make sure columns align between data and metadata:
-zoop_cols <- colnames(zoops_wq)
-metadata_cols <- readxl::read_excel("data-raw/metadata/2022_update/F4F2021_metadata2022.xlsx", sheet = "attribute") |>
-  pull(attribute_name)
-
-setdiff(zoop_cols, metadata_cols)
-setdiff(metadata_cols, zoop_cols)
 
 # compare to 2019, 2021 files
 zoops_21 <- read_csv('data/F4F_Complete2019_2021ZoopsPerM3andWaterQuality.csv')
@@ -72,10 +65,21 @@ min(zoops_21$DATE, na.rm = TRUE)
 max(zoops_21$DATE, na.rm = TRUE)
 
 # bind rows with 2019, 2021 files
-all_zoops <- bind_rows(zoops_wq, zoops_21) |> arrange(DATE)
+all_zoops <- bind_rows(zoops_wq, zoops_21 |> rename(Illyocypris = Ilyocypris,
+                                                  Hyallela = Hyalella,
+                                                  Oliogochaete = Oligochaete) ) |>
+  arrange(DATE)
 unique(lubridate::year(all_zoops$DATE))
 
-write_csv(zoops_wq, 'data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv')
+# make sure columns align between data and metadata:
+zoop_cols <- colnames(all_zoops)
+metadata_cols <- readxl::read_excel("data-raw/metadata/2022_update/F4F2021_metadata2022.xlsx", sheet = "attribute") |>
+  pull(attribute_name)
+
+setdiff(zoop_cols, metadata_cols)
+setdiff(metadata_cols, zoop_cols)
+
+write_csv(all_zoops, 'data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv')
 
 
 # F4F2021_ContinuousTempDO_AttributesTable2022 ----------------------------

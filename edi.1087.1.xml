@@ -21,7 +21,7 @@
       <organizationName>California Trout</organizationName>
       <electronicMailAddress>jacob@caltrout.org</electronicMailAddress>
     </creator>
-    <pubDate>2023-08-18</pubDate>
+    <pubDate>2023-08-21</pubDate>
     <abstract>
       <section>
         <title>2019 Water Year (October 1, 2018 through September 30,
@@ -2168,8 +2168,8 @@
       <entityDescription>Fish Growth Data</entityDescription>
       <physical>
         <objectName>F4F2021_FishGrowth2022.csv</objectName>
-        <size unit="bytes">40467</size>
-        <authentication method="MD5">63856d398ec2fdbf02f6029a25caa2df</authentication>
+        <size unit="bytes">110636</size>
+        <authentication method="MD5">f684784da43e3fe4fd22cd82bdd7f4f7</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -2266,15 +2266,15 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <numberOfRecords>944</numberOfRecords>
+      <numberOfRecords>3416</numberOfRecords>
     </dataTable>
     <dataTable>
       <entityName>F4F2021_ContinuousTempDO2022.csv</entityName>
       <entityDescription>Continuous Temperature Data</entityDescription>
       <physical>
         <objectName>F4F2021_ContinuousTempDO2022.csv</objectName>
-        <size unit="bytes">1312595</size>
-        <authentication method="MD5">c872858b0716a61bccc6af06c2fc9722</authentication>
+        <size unit="bytes">4588105</size>
+        <authentication method="MD5">e070eb9ca9a9ffb2f0855bd17e09c73e</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -2358,15 +2358,15 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <numberOfRecords>33466</numberOfRecords>
+      <numberOfRecords>116275</numberOfRecords>
     </dataTable>
     <dataTable>
       <entityName>F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv</entityName>
       <entityDescription>Zooplankton Density and Water Quality Data</entityDescription>
       <physical>
         <objectName>F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv</objectName>
-        <size unit="bytes">372835</size>
-        <authentication method="MD5">dd8dae23ebbd28e0bd0d27b02ba67718</authentication>
+        <size unit="bytes">689932</size>
+        <authentication method="MD5">504b7ef7da7eaf159a3e458e44db4a39</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -3661,8 +3661,26 @@
             </ratio>
           </measurementScale>
         </attribute>
+        <attribute>
+          <attributeName>Amphipod</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
       </attributeList>
-      <numberOfRecords>913</numberOfRecords>
+      <numberOfRecords>1735</numberOfRecords>
     </dataTable>
     <dataTable>
       <entityName>F4F2021_LocationLookupTable_2022.csv</entityName>

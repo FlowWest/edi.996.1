@@ -87,7 +87,8 @@ write_csv(all_zoops, 'data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQua
 temp_do_raw <- read_csv('data-raw/metadata/2022_update/F4F2021_ContinuousTempDO2022.csv')
 
 temp_do <- temp_do_raw |>
-  mutate(DateTime = mdy_hm(DateTime)) |>
+  mutate(DateTime = as_datetime(mdy_hm(DateTime))) |>
+ # mutate(DateTime = mdy_hm(DateTime)) |>
   filter(DateTime <= '2022-03-29')
 
 # huge DO spike in April

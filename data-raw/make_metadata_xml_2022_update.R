@@ -35,7 +35,7 @@ methods_docx <- "data-raw/metadata/2022_update/F4F2019_methods_updatedthrough202
 # edi_number <- reserve_edi_id(user_id = Sys.getenv("user_id"), password = Sys.getenv("password"), environment = "staging")
 
 # FOR STAGING:
-edi_number <- 'edi.1087.1'
+edi_number <- 'edi.1087.2'
 
 # FOR PRODUCTION:
 # edi_number = "edi.996.3"
@@ -81,5 +81,6 @@ EML::eml_validate(paste0(edi_number, ".xml"))
 
 evaluate_edi_package(eml_file_path = paste0(edi_number, ".xml"), Sys.getenv("user_id"), Sys.getenv("password"), environment = "staging")
 
-upload_edi_package(eml_file_path = paste0(edi_number, ".xml"), Sys.getenv("user_id"), Sys.getenv("password"),
+update_edi_package(eml_file_path = paste0(edi_number, ".xml"), existing_package_identifier = edi_number,
+                   Sys.getenv("user_id"), Sys.getenv("password"),
                    environment = "staging")

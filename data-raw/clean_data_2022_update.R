@@ -38,9 +38,6 @@ unique(locations_2021$Location)
 unique(lookup_2022$Location)
 setdiff(unique(locations_2021$Location), unique(lookup_2022$Location))
 
-write_csv(lookup_2022, "data/2022_update/F4F2021_LocationLookupTable_2022.csv")
-
-
 # F4F2021_Complete2021ZoopsPerM3andWaterQuality2022 -----------------------
 zoops_wq_raw <- read_csv('data-raw/metadata/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv') |> glimpse()
 
@@ -79,9 +76,6 @@ metadata_cols <- readxl::read_excel("data-raw/metadata/2022_update/F4F2021_metad
 setdiff(zoop_cols, metadata_cols)
 setdiff(metadata_cols, zoop_cols)
 
-write_csv(all_zoops, 'data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv')
-
-
 # F4F2021_ContinuousTempDO_AttributesTable2022 ----------------------------
 # F4F2021_ContinuousTempDO2022
 temp_do_raw <- read_csv('data-raw/metadata/2022_update/F4F2021_ContinuousTempDO2022.csv')
@@ -118,7 +112,6 @@ ggplot(all_temp_do) +
   geom_line(aes(x = DateTime, y = DO.mgL)) +
   facet_wrap(~LOCATION)
 
-write_csv(all_temp_do, "data/2022_update/F4F2021_ContinuousTempDO2022.csv")
 
 
 # F4F2021_FishGrowth2022 --------------------------------------------------
@@ -152,7 +145,10 @@ ggplot(all_fish_growth, aes(x = Date, y = Weight.g)) +
   geom_point() +
   facet_wrap(~LOCATION)
 
-write_csv(all_fish_growth, "data/2022_update/F4F2021_FishGrowth2022.csv")
-
+# write data --------------------------------------------------------------
+write_csv(lookup_2022, "data/2022_update/F4F2021_LocationLookupTable_2019_2021_2022.csv")
+write_csv(all_fish_growth, "data/2022_update/F4F2021_FishGrowth_2019_2021_2022.csv")
+write_csv(all_temp_do, "data/2022_update/F4F2021_ContinuousTempDO_2019_2021_2022.csv")
+write_csv(all_zoops, 'data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality_2019_2021_2022.csv')
 
 

@@ -3,10 +3,10 @@ library(EMLaide)
 library(tidyverse)
 
 # Load in all the documents
-datatable_metadata <- tibble(filepath = c("data/2022_update/F4F2021_FishGrowth2022.csv",
-                                          "data/2022_update/F4F2021_ContinuousTempDO2022.csv",
-                                          "data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv",
-                                          "data/2022_update/F4F2021_LocationLookupTable_2022.csv"),
+datatable_metadata <- tibble(filepath = c("data/2022_update/F4F2021_FishGrowth_2019_2021_2022.csv",
+                                          "data/2022_update/F4F2021_ContinuousTempDO_2019_2021_2022.csv",
+                                          "data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality_2019_2021_2022.csv",
+                                          "data/2022_update/F4F2021_LocationLookupTable_2019_2021_2022.csv"),
                              attribute_info = c("data-raw/metadata/2022_update/F4F2021_FishGrowth_AttributesTable2022.xlsx",
                                                "data-raw/metadata/2022_update/F4F2021_ContinuousTempDO_AttributesTable2022.xlsx",
                                                "data-raw/metadata/2022_update/F4F2021_metadata2022.xlsx",
@@ -16,10 +16,10 @@ datatable_metadata <- tibble(filepath = c("data/2022_update/F4F2021_FishGrowth20
                                                      "Zooplankton Density and Water Quality Data",
                                                       "Location Lookup Table for Sample Site"),
                              datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/",
-                                                    c("F4F2021_FishGrowth2022.csv",
-                                                      "F4F2021_ContinuousTempDO2022.csv",
-                                                      "F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv",
-                                                      "F4F2021_LocationLookupTable_2022.csv"
+                                                    c("F4F2021_FishGrowth_2019_2021_2022.csv",
+                                                      "F4F2021_ContinuousTempDO_2019_2021_2022.csv",
+                                                      "F4F2021_Complete2021ZoopsPerM3andWaterQuality_2019_2021_2022.csv",
+                                                      "F4F2021_LocationLookupTable_2019_2021_2022.csv"
                                                       )))
 
 

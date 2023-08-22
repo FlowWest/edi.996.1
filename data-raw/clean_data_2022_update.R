@@ -146,9 +146,9 @@ ggplot(all_fish_growth, aes(x = Date, y = Weight.g)) +
   facet_wrap(~LOCATION)
 
 # write data --------------------------------------------------------------
-write_csv(lookup_2022, "data/2022_update/F4F2021_LocationLookupTable_2019_2021_2022.csv")
-write_csv(all_fish_growth, "data/2022_update/F4F2021_FishGrowth_2019_2021_2022.csv")
-write_csv(all_temp_do, "data/2022_update/F4F2021_ContinuousTempDO_2019_2021_2022.csv")
-write_csv(all_zoops, 'data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality_2019_2021_2022.csv')
+write_csv(lookup_2022, "data/2022_update/F4F_LocationLookupTable_2019_2021_2022.csv")
+write_csv(all_fish_growth, "data/2022_update/F4F_FishGrowth_2019_2021_2022.csv")
+write_csv(all_temp_do, "data/2022_update/F4F_ContinuousTempDO_2019_2021_2022.csv")
+write_csv(all_zoops, 'data/2022_update/F4F_Complete2021ZoopsPerM3andWaterQuality_2019_2021_2022.csv')
 
 

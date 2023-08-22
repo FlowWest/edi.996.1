@@ -106,7 +106,8 @@ setdiff(metadata_cols, cols)
 
 temp_do_2019_2021 <- read_csv('data/F4F2019_2021_ContinuousTempDO.csv')
 
-all_temp_do <- bind_rows(temp_do_2019_2021, temp_do) |> arrange(DateTime) |> glimpse()
+all_temp_do <- bind_rows(temp_do_2019_2021, temp_do) |> arrange(DateTime) |>
+  mutate(DateTime = as.character(DateTime)) |> glimpse()
 
 ggplot(all_temp_do) +
   geom_line(aes(x = DateTime, y = DO.mgL)) +

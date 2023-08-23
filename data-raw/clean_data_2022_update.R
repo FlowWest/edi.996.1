@@ -114,7 +114,6 @@ ggplot(all_temp_do) +
   facet_wrap(~LOCATION)
 
 
-
 # F4F2021_FishGrowth2022 --------------------------------------------------
 fish_growth <- readxl::read_excel('data-raw/metadata/2022_update/F4F2021_FishGrowth2022.xlsx') |> glimpse()
 

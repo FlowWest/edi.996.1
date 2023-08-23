@@ -12,7 +12,7 @@
   </access>
   <dataset>
     <shortName>F4F2021</shortName>
-    <title>Fish Food on Floodplain Farm Fields 2021</title>
+    <title>Fish Food on Floodplain Farm Fields 2019, 2021, and 2022</title>
     <creator id="0000-0002-1506-5611">
       <individualName>
         <givenName>Jacob</givenName>
@@ -21,7 +21,7 @@
       <organizationName>California Trout</organizationName>
       <electronicMailAddress>jacob@caltrout.org</electronicMailAddress>
     </creator>
-    <pubDate>2023-08-18</pubDate>
+    <pubDate>2023-08-23</pubDate>
     <abstract>
       <section>
         <title>2019 Water Year (October 1, 2018 through September 30,
@@ -212,6 +212,9 @@
       <keyword>freshwater management</keyword>
       <keyword>hydrological restoration</keyword>
       <keywordThesaurus>AGROVOC</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>CVPIA</keyword>
     </keywordSet>
     <intellectualRights>
       <para>This data package is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein "website") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available "as is" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.</para>
@@ -2140,7 +2143,7 @@
       </methodStep>
     </methods>
     <project>
-      <title>Fish Food on Floodplain Farm Fields 2021</title>
+      <title>Fish Food on Floodplain Farm Fields 2019, 2021, and 2022</title>
       <personnel>
         <individualName>
           <givenName>Jacob</givenName>
@@ -2164,12 +2167,12 @@
       </award>
     </project>
     <dataTable>
-      <entityName>F4F2021_FishGrowth2022.csv</entityName>
+      <entityName>F4F_FishGrowth_2019_2021_2022.csv</entityName>
       <entityDescription>Fish Growth Data</entityDescription>
       <physical>
-        <objectName>F4F2021_FishGrowth2022.csv</objectName>
-        <size unit="bytes">40467</size>
-        <authentication method="MD5">63856d398ec2fdbf02f6029a25caa2df</authentication>
+        <objectName>F4F_FishGrowth_2019_2021_2022.csv</objectName>
+        <size unit="bytes">110636</size>
+        <authentication method="MD5">f684784da43e3fe4fd22cd82bdd7f4f7</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -2182,7 +2185,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F2021_FishGrowth2022.csv</url>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F_FishGrowth_2019_2021_2022.csv</url>
           </online>
         </distribution>
       </physical>
@@ -2266,15 +2269,15 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <numberOfRecords>944</numberOfRecords>
+      <numberOfRecords>3416</numberOfRecords>
     </dataTable>
     <dataTable>
-      <entityName>F4F2021_ContinuousTempDO2022.csv</entityName>
+      <entityName>F4F_ContinuousTempDO_2019_2021_2022.csv</entityName>
       <entityDescription>Continuous Temperature Data</entityDescription>
       <physical>
-        <objectName>F4F2021_ContinuousTempDO2022.csv</objectName>
-        <size unit="bytes">1312595</size>
-        <authentication method="MD5">c872858b0716a61bccc6af06c2fc9722</authentication>
+        <objectName>F4F_ContinuousTempDO_2019_2021_2022.csv</objectName>
+        <size unit="bytes">4471830</size>
+        <authentication method="MD5">6cb79d4dc4f687cbb186df0ff6e0ce05</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -2287,7 +2290,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F2021_ContinuousTempDO2022.csv</url>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F_ContinuousTempDO_2019_2021_2022.csv</url>
           </online>
         </distribution>
       </physical>
@@ -2314,8 +2317,8 @@
               <dateTimePrecision>mm/dd/yyyy hh:mm</dateTimePrecision>
               <dateTimeDomain>
                 <bounds>
-                  <minimum exclusive="false">44599.3583</minimum>
-                  <maximum exclusive="false">44656.3632</maximum>
+                  <minimum exclusive="false">43517.5208</minimum>
+                  <maximum exclusive="false">44649.2917</maximum>
                 </bounds>
               </dateTimeDomain>
             </dateTime>
@@ -2358,15 +2361,15 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <numberOfRecords>33466</numberOfRecords>
+      <numberOfRecords>116275</numberOfRecords>
     </dataTable>
     <dataTable>
-      <entityName>F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv</entityName>
+      <entityName>F4F_Complete2021ZoopsPerM3andWaterQuality_2019_2021_2022.csv</entityName>
       <entityDescription>Zooplankton Density and Water Quality Data</entityDescription>
       <physical>
-        <objectName>F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv</objectName>
-        <size unit="bytes">372835</size>
-        <authentication method="MD5">dd8dae23ebbd28e0bd0d27b02ba67718</authentication>
+        <objectName>F4F_Complete2021ZoopsPerM3andWaterQuality_2019_2021_2022.csv</objectName>
+        <size unit="bytes">689932</size>
+        <authentication method="MD5">504b7ef7da7eaf159a3e458e44db4a39</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -2379,7 +2382,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F2021_Complete2021ZoopsPerM3andWaterQuality2022.csv</url>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F_Complete2021ZoopsPerM3andWaterQuality_2019_2021_2022.csv</url>
           </online>
         </distribution>
       </physical>
@@ -3661,14 +3664,32 @@
             </ratio>
           </measurementScale>
         </attribute>
+        <attribute>
+          <attributeName>Amphipod</attributeName>
+          <attributeDefinition>count of zooplankton species standardized to one cubic meter of water sampled</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
       </attributeList>
-      <numberOfRecords>913</numberOfRecords>
+      <numberOfRecords>1735</numberOfRecords>
     </dataTable>
     <dataTable>
-      <entityName>F4F2021_LocationLookupTable_2022.csv</entityName>
+      <entityName>F4F_LocationLookupTable_2019_2021_2022.csv</entityName>
       <entityDescription>Location Lookup Table for Sample Site</entityDescription>
       <physical>
-        <objectName>F4F2021_LocationLookupTable_2022.csv</objectName>
+        <objectName>F4F_LocationLookupTable_2019_2021_2022.csv</objectName>
         <size unit="bytes">5930</size>
         <authentication method="MD5">1951666f975d0985ee384ceb29cf6073</authentication>
         <dataFormat>
@@ -3683,7 +3704,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F2021_LocationLookupTable_2022.csv</url>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.996.1/v3.0/data/2022_update/F4F_LocationLookupTable_2019_2021_2022.csv</url>
           </online>
         </distribution>
       </physical>
